@@ -105,7 +105,24 @@ The model was benchmarked against a baseline classifier and standard regex-based
 
 ### CLI Scanner
 
-The scanner utilizes a **sliding window approach** (overlapping chunks) to ensure secrets aren't split at buffer edges. It uses the model's span prediction as a **semantic anchor**, which is then refined to extract the precise credential.
+The CLI scanner allows you to run the Hybrid Multi-Task model against local files or entire repositories.
+
+Basic command : (make sure to run it from the parent project directory)\
+**`python scan_secrets.py scan <path_to_scan> --model <path_to_checkpoint.pt>`**
+
+#### CLI Options
+
+| Option | Description | Default |
+|------|-------------|---------|
+| `path` | **Required.** File or directory to scan for secrets. | — |
+| `--model` | **Required.** Path to the trained `best_model.pt` checkpoint. | — |
+| `--threshold` | Confidence score (0.0–1.0) above which a finding is reported. | `0.7` |
+| `--format` | Output style: `text` for human-readable console output, `json` for machine processing. | `text` |
+| `--output` | Optional filename to save the results instead of printing to console. | Console Output |
+
+#### Sample output :
+
+<img src="/misc/sample_output.png" alt="Sample Output" width="100%" />
 
 
 ## Minor Implementation Details
