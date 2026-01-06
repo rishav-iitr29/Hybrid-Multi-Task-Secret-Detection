@@ -7,6 +7,8 @@ This project explores a **hybrid multi-task learning approach** for detecting ha
 
 Traditional tools like Gitleaks and TruffleHog are powerful but brittle; they struggle when secrets are obfuscated or placed in unusual contexts. This project leverages a **CodeBERT** encoder to reason over the semantic usage of strings, maintaining high recall even under adversarial conditions. 
 
+I have uploaded most of the dataset (generated) and code files that I used during this project.
+
 ### Key Highlights
 
 * **Multi-Task Architecture**: Jointly predicts secret presence, exact location (span), and Shannon entropy. 
@@ -48,12 +50,10 @@ Where:
 
 We employed a two-stage training strategy:
 
-* 
-**Warm-up (2 Epochs)**: Encoder is frozen to stabilize task heads and prevent "catastrophic forgetting." 
+* **Warm-up (2 Epochs)**: Encoder is frozen to stabilize task heads and prevent "catastrophic forgetting." 
 
 
-* 
-**Fine-tuning (5 Epochs)**: Full model is unfrozen with increased weights for entropy () and span () to force precision in localization. 
+* **Fine-tuning (5 Epochs)**: Full model is unfrozen with increased weights for entropy () and span () to force precision in localization. 
 
 
 
@@ -81,7 +81,7 @@ The model was benchmarked against a baseline classifier and standard regex-based
 | Task | Metric | Value |
 |-----|--------|-------|
 | Span Localization | Exact Match Accuracy (%) | **90.63** |
-| Span Samples Evaluated | Count | 288 |
+| Span Samples Evaluated | Count | **288** |
 | Entropy Regression | Mean Absolute Error (MAE) | **0.714** |
 
 * **Observation**: While Gitleaks has perfect precision, it misses nearly 50% of secrets under adversarial pressure. 
