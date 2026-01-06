@@ -2,7 +2,6 @@
 
 This project explores a **hybrid multi-task learning approach** for detecting hard-coded secrets in source code. By jointly training on **classification**, **span localization**, and **entropy regression**, the model moves beyond simple pattern matching to a deeper semantic understanding of code context. 
 
----
 
 ## Project Overview
 
@@ -10,20 +9,14 @@ Traditional tools like Gitleaks and TruffleHog are powerful but brittle; they st
 
 ### Key Highlights
 
-* 
-**Multi-Task Architecture**: Jointly predicts secret presence, exact location (span), and Shannon entropy. 
+* **Multi-Task Architecture**: Jointly predicts secret presence, exact location (span), and Shannon entropy. 
 
 
-* 
-**Adversarial Robustness**: Specifically designed to handle "unseen" obfuscations such as Base64 encoding and string concatenation. 
+* **Adversarial Robustness**: Specifically designed to handle "unseen" obfuscations such as Base64 encoding and string concatenation. 
 
 
-* 
-**Bias Correction**: Implements prefix padding and structural wrappers to eliminate positional bias in span detection. 
+* **Bias Correction**: Implements prefix padding and structural wrappers to eliminate positional bias in span detection. 
 
-
-
----
 
 ## 🧠 Model Architecture
 
@@ -42,14 +35,24 @@ The core of the project is a **shared CodeBERT encoder** branching into three sp
 * 
 **Entropy Head**: A regression head that estimates the statistical randomness of the identified string. 
 
-
+<img src="/misc/architecture_diagram.png" alt="Architecture Diagram" width="70%" />
 
 ### 2. Multi-Task Loss Strategy
 
 To balance these objectives, we use a weighted loss function:
 
+\[
+\mathcal{L}_{\text{total}}
+= c_1 \cdot \mathcal{L}_{\text{BCE}}
++ c_2 \cdot \mathcal{L}_{\text{MSE}}
++ c_3 \cdot \mathcal{L}_{\text{Span}}
+\]
 
-
+where:
+- \(\mathcal{L}_{\text{BCE}}\) is the **binary cross-entropy loss** for secret classification  
+- \(\mathcal{L}_{\text{MSE}}\) is the **mean squared error loss** for entropy regression  
+- \(\mathcal{L}_{\text{Span}}\) is the **masked span localization loss**  
+- \(c_1, c_2, c_3\) are task-specific weighting coefficients
 
 We employed a two-stage training strategy:
 
@@ -62,78 +65,64 @@ We employed a two-stage training strategy:
 
 
 
----
-
-## 📊 Dataset Construction
+## Dataset Construction
 
 The dataset was meticulously curated to prevent the model from learning "shortcuts" like "high entropy always equals a secret." 
 
 | Category | Description | Significance |
-| --- | --- | --- |
-| **Real Positives** | Leaks extracted from GitHub and filtered for quality. 
+|---------|-------------|--------------|
+| **Real Positives** | Leaks extracted from GitHub repositories and filtered for quality. | Provides real-world ground truth. |
+| **Synthetic Positives** | Programmatically injected secrets using encoding, concatenation, and indirection. | Teaches robustness against obfuscation. |
+| **Hard Negatives** | High-entropy non-secrets such as UUIDs, hashes, and request IDs. | Prevents false positives based on randomness alone. |
+| **Contextual Negatives** | Benign code contextually similar to positives (e.g., non-secret identifiers). | Forces semantic differentiation instead of pattern matching. |
 
- | Provides real-world ground truth. |
-| **Synthetic Positives** | Programmatically injected secrets using encoding, concatenation, and indirection. 
-
- | Teaches robustness against obfuscation. |
-| **Hard Negatives** | High-entropy non-secrets like UUIDs, Hashes, and Request IDs. 
-
- | Prevents false positives based on randomness alone. |
-| **Contextual Negatives** | Benign code contextually similar to positives (e.g., non-secret identifiers). 
-
- | Forces semantic differentiation. |
-
----
-
-## 🧪 Evaluation Results
+## Evaluation Results
 
 The model was benchmarked against a baseline classifier and standard regex-based tools using a dedicated adversarial test set. 
 
-### Adversarial Benchmarking Results
-
 | Model | Precision | Recall | F1 Score |
-| --- | --- | --- | --- |
+|------|-----------|--------|----------|
 | **Hybrid Multi-Task Model** | 0.812 | **0.839** | **0.825** |
 | Baseline Classifier | 0.845 | 0.681 | 0.755 |
-| Gitleaks (Regex) | **1.000** | 0.538 | 0.700 |
+| Gitleaks (Regex-based) | **1.000** | 0.538 | 0.700 |
 
-* 
-**Observation**: While Gitleaks has perfect precision, it misses nearly 50% of secrets under adversarial pressure. 
+| Task | Metric | Value |
+|-----|--------|-------|
+| Span Localization | Exact Match Accuracy (%) | **90.63** |
+| Span Samples Evaluated | Count | 288 |
+| Entropy Regression | Mean Absolute Error (MAE) | **0.714** |
 
+* **Observation**: While Gitleaks has perfect precision, it misses nearly 50% of secrets under adversarial pressure. 
 
-* 
-**Conclusion**: Our hybrid model achieves a **23% improvement in recall** over Gitleaks while maintaining a 90.6% exact match accuracy for span localization. 
-
-
-
----
-
-## 🛠 Project Components
-
-* **`hybrid_model.py`**: Implementation of the CodeBERT-based multi-task architecture.
-* **`train_hybrid.py`**: The two-stage training pipeline (warm-up + fine-tuning).
-* 
-**`scan_secrets.py`**: A CLI implementation that utilizes the model's span predictions for localizing secrets in real files. 
+* **Conclusion**: Our hybrid model achieves a **23% improvement in recall** over Gitleaks while maintaining a 90.6% exact match accuracy for span localization. 
 
 
+## Project Components and directories
 
-### CLI Scanner Logic
+* **`CLI_scanner/scan_secrets.py`**: The CLI implementation that utilizes the model's span predictions for localizing secrets in real files. 
+* **`adversarial_testing/`**: Contains the dataset generations and evaluation scripts, dataset and results (json) innvolved in adversarial testing
+* **`baseline_model/model.py`**: The baseline CodeBERT model
+* **`data/`**: Contains all the data used and generated during the project
+* **`hybrid_model_architecture/hybrid_dataset.py`**: Preprocessing and Tokenisation of the data
+* **`hybrid_model_architecture/hybrid_model.py`**: Implementation of the CodeBERT-based multi-task architecture.
+* **`hybrid_model_architecture/train_hybrid.py`**: The two-stage training pipeline (warm-up + fine-tuning).
+* **`scripts/`**: Contains all the code files used to generate and refine different classes of data
+* **`span_fixing/`**: The script used to fix the span start bias in original dataset
+
+
+
+### CLI Scanner
 
 The scanner utilizes a **sliding window approach** (overlapping chunks) to ensure secrets aren't split at buffer edges. It uses the model's span prediction as a **semantic anchor**, which is then refined to extract the precise credential.
 
----
 
-## 📌 Minor Implementation Details
+## Minor Implementation Details
 
-* 
-**Span Masking**: Span loss is only computed for samples with valid span annotations to avoid label noise. 
-
-
+* **Span Masking**: Span loss is only computed for samples with valid span annotations to avoid label noise. 
 * **Rule Mapping**: Broad vendor categories (e.g., Parsehub, Yelp) were mapped to a high-entropy `generic-api-key` rule to ensure dataset coverage.
-* 
-**Prefix Padding**: Used to correct the "Start = 0" span bias found in the initial data. 
+* **Prefix Padding**: Used to correct the "Start = 0" span bias found in the initial data. 
 
 
+Self Project | Deep Learning for Security Research
 
-**Author:** Rishav Kumar
-*Deep Learning for Security Research*
+By Rishav Kumar
