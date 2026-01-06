@@ -1,0 +1,23 @@
+{
+  "test_metrics": {
+    "loss": 0.01603457234632515,
+    "accuracy": 0.996078431372549,
+    "precision": 0.9971751412429378,
+    "recall": 0.995768688293371,
+    "f1": 0.9964714184897672,
+    "confusion_matrix": {
+      "tn": 564,
+      "fp": 2,
+      "fn": 3,
+      "tp": 706
+    }
+  },
+  "history": {
+    "train_loss": [],
+    "val_loss": [],
+    "val_accuracy": [],
+    "val_precision": [],
+    "val_recall": [],
+    "val_f1": []
+  }
+}

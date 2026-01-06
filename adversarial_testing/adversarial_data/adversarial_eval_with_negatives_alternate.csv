@@ -1,0 +1,859 @@
+code_snippet,has_secret,secret_span_start,secret_span_end,entropy,obfuscation_type
+"def load_key():
+    return os.getenv(""API_KEY"", ""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi"")",1,49,82,4.5367,seen:env_mock
+"def load_key():
+    return // TODO remove key gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi",1,46,79,4.5367,seen:commented
+"module.exports = { key: cfg = {""token"": ""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi""}
+api_key = cfg[""token""] }",1,41,74,4.5367,unseen:dict_lookup
+"headers = {""Authorization"": ""Bearer "" + get_key = lambda: ""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi""
+api_key = get_key()}",1,59,92,4.5367,unseen:lambda_return
+"SECRET = def connect(key=""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi""):
+    pass",1,26,59,4.5367,unseen:default_arg
+"API_KEY = key = ""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi"" if DEBUG else None",1,17,50,4.5367,unseen:ternary
+"ACCESS_TOKEN = try:
+    key = load_key()
+except Exception:
+    key = ""gA5JblekSiUvyDCPZHEJEFDwyGiXmkfGi""",1,70,103,4.5367,unseen:try_except_fallback
+"API_KEY = os.getenv(""API_KEY"", ""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx"")",1,32,91,5.084,seen:env_mock
+module.exports = { key: // TODO remove key QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx },1,43,102,5.084,seen:commented
+"headers = {""Authorization"": ""Bearer "" + cfg = {""token"": ""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx""}
+api_key = cfg[""token""]}",1,57,116,5.084,unseen:dict_lookup
+"headers[""X-API-KEY""] = get_key = lambda: ""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx""
+api_key = get_key()",1,42,101,5.084,unseen:lambda_return
+"client = Client(def connect(key=""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx""):
+    pass)",1,33,92,5.084,unseen:default_arg
+"API_KEY = key = ""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx"" if DEBUG else None",1,17,76,5.084,unseen:ternary
+"config[""api_key""] = try:
+    key = load_key()
+except Exception:
+    key = ""QiDlo0ziA3VmMCtdtzsqKyql7O0kiiFnCBGwV9DLJDi4FHXGw8WBHHJefWx""",1,75,134,5.084,unseen:try_except_fallback
+"config = {""api_key"": os.getenv(""API_KEY"", ""d4adae7e-3e26-484a-be3b-9b6fd29cce0e"")}",1,43,79,3.7108,seen:env_mock
+"settings[""token""] = // TODO remove key d4adae7e-3e26-484a-be3b-9b6fd29cce0e",1,39,75,3.7108,seen:commented
+"ACCESS_TOKEN = cfg = {""token"": ""d4adae7e-3e26-484a-be3b-9b6fd29cce0e""}
+api_key = cfg[""token""]",1,32,68,3.7108,unseen:dict_lookup
+"auth_token = get_key = lambda: ""d4adae7e-3e26-484a-be3b-9b6fd29cce0e""
+api_key = get_key()",1,32,68,3.7108,unseen:lambda_return
+"try:
+    secret = def connect(key=""d4adae7e-3e26-484a-be3b-9b6fd29cce0e""):
+    pass
+except Exception:
+    pass",1,35,71,3.7108,unseen:default_arg
+"try:
+    secret = key = ""d4adae7e-3e26-484a-be3b-9b6fd29cce0e"" if DEBUG else None
+except Exception:
+    pass",1,25,61,3.7108,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""d4adae7e-3e26-484a-be3b-9b6fd29cce0e"")",1,71,107,3.7108,unseen:try_except_fallback
+"auth_token = os.getenv(""API_KEY"", ""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w"")",1,35,76,5.1136,seen:env_mock
+"os.environ[""API_KEY""] = // TODO remove key 7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w",1,43,84,5.1136,seen:commented
+"connect(cfg = {""token"": ""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w""}
+api_key = cfg[""token""])",1,25,66,5.1136,unseen:dict_lookup
+"settings[""token""] = get_key = lambda: ""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w""
+api_key = get_key()",1,39,80,5.1136,unseen:lambda_return
+"ACCESS_TOKEN = def connect(key=""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w""):
+    pass",1,32,73,5.1136,unseen:default_arg
+"SECRET = key = ""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w"" if DEBUG else None",1,16,57,5.1136,unseen:ternary
+"def load_key():
+    return try:
+    key = load_key()
+except Exception:
+    key = ""7gv1KUCMjxSRiIuW8pb0rHgN2pDnMtnEylBqH9a5w""",1,82,123,5.1136,unseen:try_except_fallback
+"auth_token = os.getenv(""API_KEY"", ""api-97391892-6746-4498-86e8-3f1ee0b4d16a"")",1,35,75,3.8439,seen:env_mock
+"os.environ[""API_KEY""] = // TODO remove key api-97391892-6746-4498-86e8-3f1ee0b4d16a",1,43,83,3.8439,seen:commented
+"try:
+    secret = cfg = {""token"": ""api-97391892-6746-4498-86e8-3f1ee0b4d16a""}
+api_key = cfg[""token""]
+except Exception:
+    pass",1,35,75,3.8439,unseen:dict_lookup
+"try:
+    secret = get_key = lambda: ""api-97391892-6746-4498-86e8-3f1ee0b4d16a""
+api_key = get_key()
+except Exception:
+    pass",1,37,77,3.8439,unseen:lambda_return
+"try:
+    secret = def connect(key=""api-97391892-6746-4498-86e8-3f1ee0b4d16a""):
+    pass
+except Exception:
+    pass",1,35,75,3.8439,unseen:default_arg
+"settings[""token""] = key = ""api-97391892-6746-4498-86e8-3f1ee0b4d16a"" if DEBUG else None",1,27,67,3.8439,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""api-97391892-6746-4498-86e8-3f1ee0b4d16a"")",1,71,111,3.8439,unseen:try_except_fallback
+"def load_key():
+    return os.getenv(""API_KEY"", ""2bd4a0a1-189a-4092-b957-70f22c457a69"")",1,49,85,3.7181,seen:env_mock
+"config[""api_key""] = // TODO remove key 2bd4a0a1-189a-4092-b957-70f22c457a69",1,39,75,3.7181,seen:commented
+"client = Client(cfg = {""token"": ""2bd4a0a1-189a-4092-b957-70f22c457a69""}
+api_key = cfg[""token""])",1,33,69,3.7181,unseen:dict_lookup
+"def load_key():
+    return get_key = lambda: ""2bd4a0a1-189a-4092-b957-70f22c457a69""
+api_key = get_key()",1,46,82,3.7181,unseen:lambda_return
+"if DEBUG:
+    api_key = def connect(key=""2bd4a0a1-189a-4092-b957-70f22c457a69""):
+    pass",1,41,77,3.7181,unseen:default_arg
+"SECRET = key = ""2bd4a0a1-189a-4092-b957-70f22c457a69"" if DEBUG else None",1,16,52,3.7181,unseen:ternary
+"def load_key():
+    return try:
+    key = load_key()
+except Exception:
+    key = ""2bd4a0a1-189a-4092-b957-70f22c457a69""",1,82,118,3.7181,unseen:try_except_fallback
+"client = Client(os.getenv(""API_KEY"", ""34.253.31.75"",""w.samepage.qa"","""","""","""","""",""""))",1,38,81,3.4809,seen:env_mock
+"ACCESS_TOKEN = // TODO remove key 34.253.31.75"",""w.samepage.qa"","""","""","""","""",""",1,34,77,3.4809,seen:commented
+"settings[""token""] = cfg = {""token"": ""34.253.31.75"",""w.samepage.qa"","""","""","""","""",""""}
+api_key = cfg[""token""]",1,37,80,3.4809,unseen:dict_lookup
+"os.environ[""API_KEY""] = get_key = lambda: ""34.253.31.75"",""w.samepage.qa"","""","""","""","""",""""
+api_key = get_key()",1,43,86,3.4809,unseen:lambda_return
+"headers[""X-API-KEY""] = def connect(key=""34.253.31.75"",""w.samepage.qa"","""","""","""","""",""""):
+    pass",1,40,83,3.4809,unseen:default_arg
+"config = {""api_key"": key = ""34.253.31.75"",""w.samepage.qa"","""","""","""","""","""" if DEBUG else None}",1,28,71,3.4809,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""34.253.31.75"",""w.samepage.qa"","""","""","""","""","""")",1,71,114,3.4809,unseen:try_except_fallback
+"module.exports = { key: os.getenv(""API_KEY"", ""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We"") }",1,46,91,4.9141,seen:env_mock
+client = Client(// TODO remove key TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We),1,35,80,4.9141,seen:commented
+"try:
+    secret = cfg = {""token"": ""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We""}
+api_key = cfg[""token""]
+except Exception:
+    pass",1,35,80,4.9141,unseen:dict_lookup
+"config = {""api_key"": get_key = lambda: ""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We""
+api_key = get_key()}",1,40,85,4.9141,unseen:lambda_return
+"const API_KEY = def connect(key=""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We""):
+    pass",1,33,78,4.9141,unseen:default_arg
+"self.token = key = ""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We"" if DEBUG else None",1,20,65,4.9141,unseen:ternary
+"ACCESS_TOKEN = try:
+    key = load_key()
+except Exception:
+    key = ""TREa8wmreY3o43UC24L0KQIJhEdoFpXRWr9VAkVhYQ9We""",1,70,115,4.9141,unseen:try_except_fallback
+"config[""api_key""] = os.getenv(""API_KEY"", ""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X"")",1,42,87,5.0306,seen:env_mock
+"headers = {""Authorization"": ""Bearer "" + // TODO remove key wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X}",1,59,104,5.0306,seen:commented
+"os.environ[""API_KEY""] = cfg = {""token"": ""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X""}
+api_key = cfg[""token""]",1,41,86,5.0306,unseen:dict_lookup
+"const API_KEY = get_key = lambda: ""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X""
+api_key = get_key()",1,35,80,5.0306,unseen:lambda_return
+"client = Client(def connect(key=""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X""):
+    pass)",1,33,78,5.0306,unseen:default_arg
+"module.exports = { key: key = ""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X"" if DEBUG else None }",1,31,76,5.0306,unseen:ternary
+"API_KEY = try:
+    key = load_key()
+except Exception:
+    key = ""wiQV0hZsvASFdJV3jBGuKjvfe221jYj4Uz3bclPTXkV9X""",1,65,110,5.0306,unseen:try_except_fallback
+"if DEBUG:
+    api_key = os.getenv(""API_KEY"", ""AEGg0uJe740CJha2zx0DF6iEAd660TcZ"")",1,46,78,4.4139,seen:env_mock
+auth_token = // TODO remove key AEGg0uJe740CJha2zx0DF6iEAd660TcZ,1,32,64,4.4139,seen:commented
+"config[""api_key""] = cfg = {""token"": ""AEGg0uJe740CJha2zx0DF6iEAd660TcZ""}
+api_key = cfg[""token""]",1,37,69,4.4139,unseen:dict_lookup
+"API_KEY = get_key = lambda: ""AEGg0uJe740CJha2zx0DF6iEAd660TcZ""
+api_key = get_key()",1,29,61,4.4139,unseen:lambda_return
+"client = Client(def connect(key=""AEGg0uJe740CJha2zx0DF6iEAd660TcZ""):
+    pass)",1,33,65,4.4139,unseen:default_arg
+"const API_KEY = key = ""AEGg0uJe740CJha2zx0DF6iEAd660TcZ"" if DEBUG else None",1,23,55,4.4139,unseen:ternary
+"config[""api_key""] = try:
+    key = load_key()
+except Exception:
+    key = ""AEGg0uJe740CJha2zx0DF6iEAd660TcZ""",1,75,107,4.4139,unseen:try_except_fallback
+"const API_KEY = os.getenv(""API_KEY"", ""n0bsi5054krri6dbqn5dmtd9pg85bgbu"")",1,38,70,4.0389,seen:env_mock
+"settings[""token""] = // TODO remove key n0bsi5054krri6dbqn5dmtd9pg85bgbu",1,39,71,4.0389,seen:commented
+"config[""api_key""] = cfg = {""token"": ""n0bsi5054krri6dbqn5dmtd9pg85bgbu""}
+api_key = cfg[""token""]",1,37,69,4.0389,unseen:dict_lookup
+"const API_KEY = get_key = lambda: ""n0bsi5054krri6dbqn5dmtd9pg85bgbu""
+api_key = get_key()",1,35,67,4.0389,unseen:lambda_return
+"API_KEY = def connect(key=""n0bsi5054krri6dbqn5dmtd9pg85bgbu""):
+    pass",1,27,59,4.0389,unseen:default_arg
+"if DEBUG:
+    api_key = key = ""n0bsi5054krri6dbqn5dmtd9pg85bgbu"" if DEBUG else None",1,31,63,4.0389,unseen:ternary
+"self.token = try:
+    key = load_key()
+except Exception:
+    key = ""n0bsi5054krri6dbqn5dmtd9pg85bgbu""",1,68,100,4.0389,unseen:try_except_fallback
+"connect(os.getenv(""API_KEY"", ""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ""))",1,30,74,4.7716,seen:env_mock
+"def load_key():
+    return // TODO remove key vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ",1,46,90,4.7716,seen:commented
+"ACCESS_TOKEN = cfg = {""token"": ""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ""}
+api_key = cfg[""token""]",1,32,76,4.7716,unseen:dict_lookup
+"self.token = get_key = lambda: ""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ""
+api_key = get_key()",1,32,76,4.7716,unseen:lambda_return
+"ACCESS_TOKEN = def connect(key=""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ""):
+    pass",1,32,76,4.7716,unseen:default_arg
+"module.exports = { key: key = ""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ"" if DEBUG else None }",1,31,75,4.7716,unseen:ternary
+"config = {""api_key"": try:
+    key = load_key()
+except Exception:
+    key = ""vRaXidyeedNo2gGPUl9MOSCdyCWnTgQCwXRfbJQFsQXQ""}",1,76,120,4.7716,unseen:try_except_fallback
+"config[""api_key""] = os.getenv(""API_KEY"", ""a1442a2bacc3335461b44c250e81f8d99c60735f"")",1,42,82,3.8562,seen:env_mock
+client = Client(// TODO remove key a1442a2bacc3335461b44c250e81f8d99c60735f),1,35,75,3.8562,seen:commented
+"settings[""token""] = cfg = {""token"": ""a1442a2bacc3335461b44c250e81f8d99c60735f""}
+api_key = cfg[""token""]",1,37,77,3.8562,unseen:dict_lookup
+"settings[""token""] = get_key = lambda: ""a1442a2bacc3335461b44c250e81f8d99c60735f""
+api_key = get_key()",1,39,79,3.8562,unseen:lambda_return
+"connect(def connect(key=""a1442a2bacc3335461b44c250e81f8d99c60735f""):
+    pass)",1,25,65,3.8562,unseen:default_arg
+"os.environ[""API_KEY""] = key = ""a1442a2bacc3335461b44c250e81f8d99c60735f"" if DEBUG else None",1,31,71,3.8562,unseen:ternary
+"try:
+    secret = try:
+    key = load_key()
+except Exception:
+    key = ""a1442a2bacc3335461b44c250e81f8d99c60735f""
+except Exception:
+    pass",1,73,113,3.8562,unseen:try_except_fallback
+"auth_token = os.getenv(""API_KEY"", ""295dd52c2bf9f30a47b6b51d7572d3b0"")",1,35,67,3.6014,seen:env_mock
+"def load_key():
+    return // TODO remove key 295dd52c2bf9f30a47b6b51d7572d3b0",1,46,78,3.6014,seen:commented
+"if DEBUG:
+    api_key = cfg = {""token"": ""295dd52c2bf9f30a47b6b51d7572d3b0""}
+api_key = cfg[""token""]",1,41,73,3.6014,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: ""295dd52c2bf9f30a47b6b51d7572d3b0""
+api_key = get_key() }",1,43,75,3.6014,unseen:lambda_return
+"def load_key():
+    return def connect(key=""295dd52c2bf9f30a47b6b51d7572d3b0""):
+    pass",1,44,76,3.6014,unseen:default_arg
+"def load_key():
+    return key = ""295dd52c2bf9f30a47b6b51d7572d3b0"" if DEBUG else None",1,34,66,3.6014,unseen:ternary
+"API_KEY = try:
+    key = load_key()
+except Exception:
+    key = ""295dd52c2bf9f30a47b6b51d7572d3b0""",1,65,97,3.6014,unseen:try_except_fallback
+"ACCESS_TOKEN = os.getenv(""API_KEY"", ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"")",1,37,69,4.5389,seen:env_mock
+SECRET = // TODO remove key sk_test_4eC39HqLyjWDarjtT1zdp7dc,1,28,60,4.5389,seen:commented
+"const API_KEY = cfg = {""token"": ""sk_test_4eC39HqLyjWDarjtT1zdp7dc""}
+api_key = cfg[""token""]",1,33,65,4.5389,unseen:dict_lookup
+"client = Client(get_key = lambda: ""sk_test_4eC39HqLyjWDarjtT1zdp7dc""
+api_key = get_key())",1,35,67,4.5389,unseen:lambda_return
+"self.token = def connect(key=""sk_test_4eC39HqLyjWDarjtT1zdp7dc""):
+    pass",1,30,62,4.5389,unseen:default_arg
+"settings[""token""] = key = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"" if DEBUG else None",1,27,59,4.5389,unseen:ternary
+"module.exports = { key: try:
+    key = load_key()
+except Exception:
+    key = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"" }",1,79,111,4.5389,unseen:try_except_fallback
+"self.token = os.getenv(""API_KEY"", ""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu"")",1,35,67,4.4139,seen:env_mock
+"headers = {""Authorization"": ""Bearer "" + // TODO remove key jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu}",1,59,91,4.4139,seen:commented
+"auth_token = cfg = {""token"": ""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu""}
+api_key = cfg[""token""]",1,30,62,4.4139,unseen:dict_lookup
+"try:
+    secret = get_key = lambda: ""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu""
+api_key = get_key()
+except Exception:
+    pass",1,37,69,4.4139,unseen:lambda_return
+"headers = {""Authorization"": ""Bearer "" + def connect(key=""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu""):
+    pass}",1,57,89,4.4139,unseen:default_arg
+"headers = {""Authorization"": ""Bearer "" + key = ""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu"" if DEBUG else None}",1,47,79,4.4139,unseen:ternary
+"headers[""X-API-KEY""] = try:
+    key = load_key()
+except Exception:
+    key = ""jGIaRI2lamCsAl62AxqXXUlQV30jP5Uu""",1,78,110,4.4139,unseen:try_except_fallback
+"os.environ[""API_KEY""] = os.getenv(""API_KEY"", """"115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""","""""""")",1,46,103,3.1446,seen:env_mock
+"if DEBUG:
+    api_key = // TODO remove key ""115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""",""""""",1,43,100,3.1446,seen:commented
+"settings[""token""] = cfg = {""token"": """"115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""",""""""""}
+api_key = cfg[""token""]",1,37,94,3.1446,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: """"115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""",""""""""
+api_key = get_key() }",1,43,100,3.1446,unseen:lambda_return
+"headers[""X-API-KEY""] = def connect(key=""""115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""",""""""""):
+    pass",1,40,97,3.1446,unseen:default_arg
+"config = {""api_key"": key = """"115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""","""""""" if DEBUG else None}",1,28,85,3.1446,unseen:ternary
+"headers = {""Authorization"": ""Bearer "" + try:
+    key = load_key()
+except Exception:
+    key = """"115.81"""",""""vishing.knowbe4.com"""","""""""","""""""","""""""","""""""",""""""""}",1,95,152,3.1446,unseen:try_except_fallback
+"def load_key():
+    return os.getenv(""API_KEY"", ""camiseta-cardume-softline-50fps--azul-pr"")",1,49,89,4.0464,seen:env_mock
+ACCESS_TOKEN = // TODO remove key camiseta-cardume-softline-50fps--azul-pr,1,34,74,4.0464,seen:commented
+"auth_token = cfg = {""token"": ""camiseta-cardume-softline-50fps--azul-pr""}
+api_key = cfg[""token""]",1,30,70,4.0464,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: ""camiseta-cardume-softline-50fps--azul-pr""
+api_key = get_key() }",1,43,83,4.0464,unseen:lambda_return
+"API_KEY = def connect(key=""camiseta-cardume-softline-50fps--azul-pr""):
+    pass",1,27,67,4.0464,unseen:default_arg
+"ACCESS_TOKEN = key = ""camiseta-cardume-softline-50fps--azul-pr"" if DEBUG else None",1,22,62,4.0464,unseen:ternary
+"def load_key():
+    return try:
+    key = load_key()
+except Exception:
+    key = ""camiseta-cardume-softline-50fps--azul-pr""",1,82,122,4.0464,unseen:try_except_fallback
+"self.token = os.getenv(""API_KEY"", ""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE"")",1,35,67,4.4764,seen:env_mock
+"settings[""token""] = // TODO remove key M6awaEZeTqleWJWVQtf5BGskT0vG8ssE",1,39,71,4.4764,seen:commented
+"config[""api_key""] = cfg = {""token"": ""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE""}
+api_key = cfg[""token""]",1,37,69,4.4764,unseen:dict_lookup
+"API_KEY = get_key = lambda: ""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE""
+api_key = get_key()",1,29,61,4.4764,unseen:lambda_return
+"os.environ[""API_KEY""] = def connect(key=""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE""):
+    pass",1,41,73,4.4764,unseen:default_arg
+"client = Client(key = ""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE"" if DEBUG else None)",1,23,55,4.4764,unseen:ternary
+"headers[""X-API-KEY""] = try:
+    key = load_key()
+except Exception:
+    key = ""M6awaEZeTqleWJWVQtf5BGskT0vG8ssE""",1,78,110,4.4764,unseen:try_except_fallback
+"self.token = os.getenv(""API_KEY"", ""e3aa4d0900167641d41cbccf53909229f00381c9"")",1,35,75,3.7562,seen:env_mock
+"config = {""api_key"": // TODO remove key e3aa4d0900167641d41cbccf53909229f00381c9}",1,40,80,3.7562,seen:commented
+"settings[""token""] = cfg = {""token"": ""e3aa4d0900167641d41cbccf53909229f00381c9""}
+api_key = cfg[""token""]",1,37,77,3.7562,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: ""e3aa4d0900167641d41cbccf53909229f00381c9""
+api_key = get_key() }",1,43,83,3.7562,unseen:lambda_return
+"SECRET = def connect(key=""e3aa4d0900167641d41cbccf53909229f00381c9""):
+    pass",1,26,66,3.7562,unseen:default_arg
+"if DEBUG:
+    api_key = key = ""e3aa4d0900167641d41cbccf53909229f00381c9"" if DEBUG else None",1,31,71,3.7562,unseen:ternary
+"SECRET = try:
+    key = load_key()
+except Exception:
+    key = ""e3aa4d0900167641d41cbccf53909229f00381c9""",1,64,104,3.7562,unseen:try_except_fallback
+"const API_KEY = os.getenv(""API_KEY"", ""526ec638f871448ca210d7faa3cbacb5"")",1,38,70,3.7889,seen:env_mock
+"config[""api_key""] = // TODO remove key 526ec638f871448ca210d7faa3cbacb5",1,39,71,3.7889,seen:commented
+"ACCESS_TOKEN = cfg = {""token"": ""526ec638f871448ca210d7faa3cbacb5""}
+api_key = cfg[""token""]",1,32,64,3.7889,unseen:dict_lookup
+"ACCESS_TOKEN = get_key = lambda: ""526ec638f871448ca210d7faa3cbacb5""
+api_key = get_key()",1,34,66,3.7889,unseen:lambda_return
+"ACCESS_TOKEN = def connect(key=""526ec638f871448ca210d7faa3cbacb5""):
+    pass",1,32,64,3.7889,unseen:default_arg
+"def load_key():
+    return key = ""526ec638f871448ca210d7faa3cbacb5"" if DEBUG else None",1,34,66,3.7889,unseen:ternary
+"os.environ[""API_KEY""] = try:
+    key = load_key()
+except Exception:
+    key = ""526ec638f871448ca210d7faa3cbacb5""",1,79,111,3.7889,unseen:try_except_fallback
+"ACCESS_TOKEN = os.getenv(""API_KEY"", ""30eb2e4e018997e11b2884b1f80a025c"")",1,37,69,3.5778,seen:env_mock
+"headers = {""Authorization"": ""Bearer "" + // TODO remove key 30eb2e4e018997e11b2884b1f80a025c}",1,59,91,3.5778,seen:commented
+"client = Client(cfg = {""token"": ""30eb2e4e018997e11b2884b1f80a025c""}
+api_key = cfg[""token""])",1,33,65,3.5778,unseen:dict_lookup
+"if DEBUG:
+    api_key = get_key = lambda: ""30eb2e4e018997e11b2884b1f80a025c""
+api_key = get_key()",1,43,75,3.5778,unseen:lambda_return
+"def load_key():
+    return def connect(key=""30eb2e4e018997e11b2884b1f80a025c""):
+    pass",1,44,76,3.5778,unseen:default_arg
+"client = Client(key = ""30eb2e4e018997e11b2884b1f80a025c"" if DEBUG else None)",1,23,55,3.5778,unseen:ternary
+"os.environ[""API_KEY""] = try:
+    key = load_key()
+except Exception:
+    key = ""30eb2e4e018997e11b2884b1f80a025c""",1,79,111,3.5778,unseen:try_except_fallback
+"if DEBUG:
+    api_key = os.getenv(""API_KEY"", ""CxaDsJXPwKlBkkjFo4M"")",1,46,65,4.1427,seen:env_mock
+ACCESS_TOKEN = // TODO remove key CxaDsJXPwKlBkkjFo4M,1,34,53,4.1427,seen:commented
+"auth_token = cfg = {""token"": ""CxaDsJXPwKlBkkjFo4M""}
+api_key = cfg[""token""]",1,30,49,4.1427,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: ""CxaDsJXPwKlBkkjFo4M""
+api_key = get_key() }",1,43,62,4.1427,unseen:lambda_return
+"settings[""token""] = def connect(key=""CxaDsJXPwKlBkkjFo4M""):
+    pass",1,37,56,4.1427,unseen:default_arg
+"const API_KEY = key = ""CxaDsJXPwKlBkkjFo4M"" if DEBUG else None",1,23,42,4.1427,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""CxaDsJXPwKlBkkjFo4M"")",1,71,90,4.1427,unseen:try_except_fallback
+"def load_key():
+    return os.getenv(""API_KEY"", ""|pipelines.platform.sit.here.com|eu-north-1"")",1,49,92,4.0918,seen:env_mock
+"try:
+    secret = // TODO remove key |pipelines.platform.sit.here.com|eu-north-1
+except Exception:
+    pass",1,37,80,4.0918,seen:commented
+"headers[""X-API-KEY""] = cfg = {""token"": ""|pipelines.platform.sit.here.com|eu-north-1""}
+api_key = cfg[""token""]",1,40,83,4.0918,unseen:dict_lookup
+"connect(get_key = lambda: ""|pipelines.platform.sit.here.com|eu-north-1""
+api_key = get_key())",1,27,70,4.0918,unseen:lambda_return
+"const API_KEY = def connect(key=""|pipelines.platform.sit.here.com|eu-north-1""):
+    pass",1,33,76,4.0918,unseen:default_arg
+"API_KEY = key = ""|pipelines.platform.sit.here.com|eu-north-1"" if DEBUG else None",1,17,60,4.0918,unseen:ternary
+"module.exports = { key: try:
+    key = load_key()
+except Exception:
+    key = ""|pipelines.platform.sit.here.com|eu-north-1"" }",1,79,122,4.0918,unseen:try_except_fallback
+"client = Client(os.getenv(""API_KEY"", """"65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""""))",1,38,95,3.1446,seen:env_mock
+"auth_token = // TODO remove key ""65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""",1,32,89,3.1446,seen:commented
+"config = {""api_key"": cfg = {""token"": """"65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""""}
+api_key = cfg[""token""]}",1,38,95,3.1446,unseen:dict_lookup
+"connect(get_key = lambda: """"65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""""
+api_key = get_key())",1,27,84,3.1446,unseen:lambda_return
+"settings[""token""] = def connect(key=""""65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""""):
+    pass",1,37,94,3.1446,unseen:default_arg
+"if DEBUG:
+    api_key = key = """"65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*."""" if DEBUG else None",1,31,88,3.1446,unseen:ternary
+"settings[""token""] = try:
+    key = load_key()
+except Exception:
+    key = """"65"""",""""*.projectx-rovang.com"""","""""""","""""""","""""""","""""""",""""*.""""",1,75,132,3.1446,unseen:try_except_fallback
+"client = Client(os.getenv(""API_KEY"", ""-ligar-con-chicas-sexo-ven-disfruta-11-""))",1,38,77,3.9259,seen:env_mock
+SECRET = // TODO remove key -ligar-con-chicas-sexo-ven-disfruta-11-,1,28,67,3.9259,seen:commented
+"client = Client(cfg = {""token"": ""-ligar-con-chicas-sexo-ven-disfruta-11-""}
+api_key = cfg[""token""])",1,33,72,3.9259,unseen:dict_lookup
+"API_KEY = get_key = lambda: ""-ligar-con-chicas-sexo-ven-disfruta-11-""
+api_key = get_key()",1,29,68,3.9259,unseen:lambda_return
+"if DEBUG:
+    api_key = def connect(key=""-ligar-con-chicas-sexo-ven-disfruta-11-""):
+    pass",1,41,80,3.9259,unseen:default_arg
+"config = {""api_key"": key = ""-ligar-con-chicas-sexo-ven-disfruta-11-"" if DEBUG else None}",1,28,67,3.9259,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""-ligar-con-chicas-sexo-ven-disfruta-11-"")",1,71,110,3.9259,unseen:try_except_fallback
+"headers = {""Authorization"": ""Bearer "" + os.getenv(""API_KEY"", ""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3"")}",1,62,102,3.7348,seen:env_mock
+module.exports = { key: // TODO remove key d652d41ccaf8c45d5707e741c0c5d82a2365a9a3 },1,43,83,3.7348,seen:commented
+"ACCESS_TOKEN = cfg = {""token"": ""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3""}
+api_key = cfg[""token""]",1,32,72,3.7348,unseen:dict_lookup
+"module.exports = { key: get_key = lambda: ""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3""
+api_key = get_key() }",1,43,83,3.7348,unseen:lambda_return
+"SECRET = def connect(key=""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3""):
+    pass",1,26,66,3.7348,unseen:default_arg
+"try:
+    secret = key = ""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3"" if DEBUG else None
+except Exception:
+    pass",1,25,65,3.7348,unseen:ternary
+"module.exports = { key: try:
+    key = load_key()
+except Exception:
+    key = ""d652d41ccaf8c45d5707e741c0c5d82a2365a9a3"" }",1,79,119,3.7348,unseen:try_except_fallback
+"SECRET = os.getenv(""API_KEY"", ""-zakariya-university-bzu-multan-"")",1,31,63,3.7775,seen:env_mock
+connect(// TODO remove key -zakariya-university-bzu-multan-),1,27,59,3.7775,seen:commented
+"try:
+    secret = cfg = {""token"": ""-zakariya-university-bzu-multan-""}
+api_key = cfg[""token""]
+except Exception:
+    pass",1,35,67,3.7775,unseen:dict_lookup
+"def load_key():
+    return get_key = lambda: ""-zakariya-university-bzu-multan-""
+api_key = get_key()",1,46,78,3.7775,unseen:lambda_return
+"auth_token = def connect(key=""-zakariya-university-bzu-multan-""):
+    pass",1,30,62,3.7775,unseen:default_arg
+"try:
+    secret = key = ""-zakariya-university-bzu-multan-"" if DEBUG else None
+except Exception:
+    pass",1,25,57,3.7775,unseen:ternary
+"module.exports = { key: try:
+    key = load_key()
+except Exception:
+    key = ""-zakariya-university-bzu-multan-"" }",1,79,111,3.7775,unseen:try_except_fallback
+"config[""api_key""] = os.getenv(""API_KEY"", ""b4d1053f2aac18c9fb4b9a289a8289199c932e12"")",1,42,82,3.5527,seen:env_mock
+"config[""api_key""] = // TODO remove key b4d1053f2aac18c9fb4b9a289a8289199c932e12",1,39,79,3.5527,seen:commented
+"config[""api_key""] = cfg = {""token"": ""b4d1053f2aac18c9fb4b9a289a8289199c932e12""}
+api_key = cfg[""token""]",1,37,77,3.5527,unseen:dict_lookup
+"headers = {""Authorization"": ""Bearer "" + get_key = lambda: ""b4d1053f2aac18c9fb4b9a289a8289199c932e12""
+api_key = get_key()}",1,59,99,3.5527,unseen:lambda_return
+"def load_key():
+    return def connect(key=""b4d1053f2aac18c9fb4b9a289a8289199c932e12""):
+    pass",1,44,84,3.5527,unseen:default_arg
+"client = Client(key = ""b4d1053f2aac18c9fb4b9a289a8289199c932e12"" if DEBUG else None)",1,23,63,3.5527,unseen:ternary
+"config[""api_key""] = try:
+    key = load_key()
+except Exception:
+    key = ""b4d1053f2aac18c9fb4b9a289a8289199c932e12""",1,75,115,3.5527,unseen:try_except_fallback
+"self.token = os.getenv(""API_KEY"", ""-05-21-may-19th-2007-ron-paul-speaks-in"")",1,35,74,4.0536,seen:env_mock
+"def load_key():
+    return // TODO remove key -05-21-may-19th-2007-ron-paul-speaks-in",1,46,85,4.0536,seen:commented
+"try:
+    secret = cfg = {""token"": ""-05-21-may-19th-2007-ron-paul-speaks-in""}
+api_key = cfg[""token""]
+except Exception:
+    pass",1,35,74,4.0536,unseen:dict_lookup
+"def load_key():
+    return get_key = lambda: ""-05-21-may-19th-2007-ron-paul-speaks-in""
+api_key = get_key()",1,46,85,4.0536,unseen:lambda_return
+"def load_key():
+    return def connect(key=""-05-21-may-19th-2007-ron-paul-speaks-in""):
+    pass",1,44,83,4.0536,unseen:default_arg
+"API_KEY = key = ""-05-21-may-19th-2007-ron-paul-speaks-in"" if DEBUG else None",1,17,56,4.0536,unseen:ternary
+"settings[""token""] = try:
+    key = load_key()
+except Exception:
+    key = ""-05-21-may-19th-2007-ron-paul-speaks-in""",1,75,114,4.0536,unseen:try_except_fallback
+"ACCESS_TOKEN = os.getenv(""API_KEY"", """""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap"""")",1,37,94,2.9209,seen:env_mock
+"client = Client(// TODO remove key """""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap"")",1,35,92,2.9209,seen:commented
+"os.environ[""API_KEY""] = cfg = {""token"": """""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap""""}
+api_key = cfg[""token""]",1,41,98,2.9209,unseen:dict_lookup
+"if DEBUG:
+    api_key = get_key = lambda: """""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap""""
+api_key = get_key()",1,43,100,2.9209,unseen:lambda_return
+"API_KEY = def connect(key="""""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap""""):
+    pass",1,27,84,2.9209,unseen:default_arg
+"auth_token = key = """""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap"""" if DEBUG else None",1,20,77,2.9209,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = """""""",""""*.coap.veritran.com"""","""""""","""""""","""""""","""""""",""""*.coap"""")",1,71,128,2.9209,unseen:try_except_fallback
+"auth_token = os.getenv(""API_KEY"", ""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF"")",1,35,67,4.4764,seen:env_mock
+"headers = {""Authorization"": ""Bearer "" + // TODO remove key 8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF}",1,59,91,4.4764,seen:commented
+"headers = {""Authorization"": ""Bearer "" + cfg = {""token"": ""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF""}
+api_key = cfg[""token""]}",1,57,89,4.4764,unseen:dict_lookup
+"auth_token = get_key = lambda: ""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF""
+api_key = get_key()",1,32,64,4.4764,unseen:lambda_return
+"os.environ[""API_KEY""] = def connect(key=""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF""):
+    pass",1,41,73,4.4764,unseen:default_arg
+"settings[""token""] = key = ""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF"" if DEBUG else None",1,27,59,4.4764,unseen:ternary
+"client = Client(try:
+    key = load_key()
+except Exception:
+    key = ""8KXu25KiZ5jOlLUZrOkFDLEmVF8N3vJF"")",1,71,103,4.4764,unseen:try_except_fallback
+"const API_KEY = os.getenv(""API_KEY"", ""Vira-a-volani-duse-v-tvrde-realite-jak-"")",1,38,77,3.6476,seen:env_mock
+module.exports = { key: // TODO remove key Vira-a-volani-duse-v-tvrde-realite-jak- },1,43,82,3.6476,seen:commented
+"headers = {""Authorization"": ""Bearer "" + cfg = {""token"": ""Vira-a-volani-duse-v-tvrde-realite-jak-""}
+api_key = cfg[""token""]}",1,57,96,3.6476,unseen:dict_lookup
+"if DEBUG:
+    api_key = get_key = lambda: ""Vira-a-volani-duse-v-tvrde-realite-jak-""
+api_key = get_key()",1,43,82,3.6476,unseen:lambda_return
+"if DEBUG:
+    api_key = def connect(key=""Vira-a-volani-duse-v-tvrde-realite-jak-""):
+    pass",1,41,80,3.6476,unseen:default_arg
+"auth_token = key = ""Vira-a-volani-duse-v-tvrde-realite-jak-"" if DEBUG else None",1,20,59,3.6476,unseen:ternary
+"connect(try:
+    key = load_key()
+except Exception:
+    key = ""Vira-a-volani-duse-v-tvrde-realite-jak-"")",1,63,102,3.6476,unseen:try_except_fallback
+"if DEBUG:
+    api_key = os.getenv(""API_KEY"", ""forex-kereskeds-vs-tzsdei-kereskeds-ami"")",1,46,85,3.4744,seen:env_mock
+"os.environ[""API_KEY""] = // TODO remove key forex-kereskeds-vs-tzsdei-kereskeds-ami",1,43,82,3.4744,seen:commented
+"config = {""api_key"": cfg = {""token"": ""forex-kereskeds-vs-tzsdei-kereskeds-ami""}
+api_key = cfg[""token""]}",1,38,77,3.4744,unseen:dict_lookup
+"headers = {""Authorization"": ""Bearer "" + get_key = lambda: ""forex-kereskeds-vs-tzsdei-kereskeds-ami""
+api_key = get_key()}",1,59,98,3.4744,unseen:lambda_return
+"os.environ[""API_KEY""] = def connect(key=""forex-kereskeds-vs-tzsdei-kereskeds-ami""):
+    pass",1,41,80,3.4744,unseen:default_arg
+"config[""api_key""] = key = ""forex-kereskeds-vs-tzsdei-kereskeds-ami"" if DEBUG else None",1,27,66,3.4744,unseen:ternary
+"connect(try:
+    key = load_key()
+except Exception:
+    key = ""forex-kereskeds-vs-tzsdei-kereskeds-ami"")",1,63,102,3.4744,unseen:try_except_fallback
+"connect(os.getenv(""API_KEY"", ""c6e79096f41f58b992bb52ef4f922aa7""))",1,30,62,3.6136,seen:env_mock
+connect(// TODO remove key c6e79096f41f58b992bb52ef4f922aa7),1,27,59,3.6136,seen:commented
+"if DEBUG:
+    api_key = cfg = {""token"": ""c6e79096f41f58b992bb52ef4f922aa7""}
+api_key = cfg[""token""]",1,41,73,3.6136,unseen:dict_lookup
+"headers[""X-API-KEY""] = get_key = lambda: ""c6e79096f41f58b992bb52ef4f922aa7""
+api_key = get_key()",1,42,74,3.6136,unseen:lambda_return
+"headers[""X-API-KEY""] = def connect(key=""c6e79096f41f58b992bb52ef4f922aa7""):
+    pass",1,40,72,3.6136,unseen:default_arg
+"settings[""token""] = key = ""c6e79096f41f58b992bb52ef4f922aa7"" if DEBUG else None",1,27,59,3.6136,unseen:ternary
+"const API_KEY = try:
+    key = load_key()
+except Exception:
+    key = ""c6e79096f41f58b992bb52ef4f922aa7""",1,71,103,3.6136,unseen:try_except_fallback
+"connect(os.getenv(""API_KEY"", ""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1""))",1,30,66,3.6388,seen:env_mock
+const API_KEY = // TODO remove key bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1,1,35,71,3.6388,seen:commented
+"def load_key():
+    return cfg = {""token"": ""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1""}
+api_key = cfg[""token""]",1,44,80,3.6388,unseen:dict_lookup
+"def load_key():
+    return get_key = lambda: ""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1""
+api_key = get_key()",1,46,82,3.6388,unseen:lambda_return
+"settings[""token""] = def connect(key=""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1""):
+    pass",1,37,73,3.6388,unseen:default_arg
+"config = {""api_key"": key = ""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1"" if DEBUG else None}",1,28,64,3.6388,unseen:ternary
+"API_KEY = try:
+    key = load_key()
+except Exception:
+    key = ""bf2d5a2a-3d62-4dc9-9d66-4ef2e56f96b1""",1,65,101,3.6388,unseen:try_except_fallback
+"ACCESS_TOKEN = os.getenv(""API_KEY"", ""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"")",1,37,105,4.1537,seen:env_mock
+"headers[""X-API-KEY""] = // TODO remove key mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",1,42,110,4.1537,seen:commented
+"os.environ[""API_KEY""] = cfg = {""token"": ""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b""}
+api_key = cfg[""token""]",1,41,109,4.1537,unseen:dict_lookup
+"os.environ[""API_KEY""] = get_key = lambda: ""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b""
+api_key = get_key()",1,43,111,4.1537,unseen:lambda_return
+"def load_key():
+    return def connect(key=""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b""):
+    pass",1,44,112,4.1537,unseen:default_arg
+"config = {""api_key"": key = ""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"" if DEBUG else None}",1,28,96,4.1537,unseen:ternary
+"API_KEY = try:
+    key = load_key()
+except Exception:
+    key = ""mzp_1b2a3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b""",1,65,133,4.1537,unseen:try_except_fallback
+"config[""api_key""] = os.getenv(""API_KEY"", ""Trigger-q6ITX9P2XMlY"")",1,42,62,3.9219,seen:env_mock
+const API_KEY = // TODO remove key Trigger-q6ITX9P2XMlY,1,35,55,3.9219,seen:commented
+"module.exports = { key: cfg = {""token"": ""Trigger-q6ITX9P2XMlY""}
+api_key = cfg[""token""] }",1,41,61,3.9219,unseen:dict_lookup
+"auth_token = get_key = lambda: ""Trigger-q6ITX9P2XMlY""
+api_key = get_key()",1,32,52,3.9219,unseen:lambda_return
+"headers[""X-API-KEY""] = def connect(key=""Trigger-q6ITX9P2XMlY""):
+    pass",1,40,60,3.9219,unseen:default_arg
+"config = {""api_key"": key = ""Trigger-q6ITX9P2XMlY"" if DEBUG else None}",1,28,48,3.9219,unseen:ternary
+"headers[""X-API-KEY""] = try:
+    key = load_key()
+except Exception:
+    key = ""Trigger-q6ITX9P2XMlY""",1,78,98,3.9219,unseen:try_except_fallback
+"headers[""X-API-KEY""] = os.getenv(""API_KEY"", ""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4"")",1,45,81,3.5487,seen:env_mock
+const API_KEY = // TODO remove key 9ca0e2a0-4124-4ee8-9e65-1f1012560ef4,1,35,71,3.5487,seen:commented
+"headers[""X-API-KEY""] = cfg = {""token"": ""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4""}
+api_key = cfg[""token""]",1,40,76,3.5487,unseen:dict_lookup
+"self.token = get_key = lambda: ""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4""
+api_key = get_key()",1,32,68,3.5487,unseen:lambda_return
+"headers[""X-API-KEY""] = def connect(key=""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4""):
+    pass",1,40,76,3.5487,unseen:default_arg
+"client = Client(key = ""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4"" if DEBUG else None)",1,23,59,3.5487,unseen:ternary
+"def load_key():
+    return try:
+    key = load_key()
+except Exception:
+    key = ""9ca0e2a0-4124-4ee8-9e65-1f1012560ef4""",1,82,118,3.5487,unseen:try_except_fallback
+"salt = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.935,negative:uuid_like
+"checksum = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2566,negative:placeholder
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"correlation_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.4267,negative:placeholder
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"pipeline_run = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2174,negative:uuid_like
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"otel_span_id = ""ioRRdzHzmA4KR1VxavU07zUHLnnBbuQz""",0,-1,-1,4.89,negative:random_entropy
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"iv = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.0704,negative:hex_hash
+"release_fingerprint = ""4KPfA1lquCu2r6AZDUd7ne7cbp0MoDh6""",0,-1,-1,4.9794,negative:random_entropy
+"artifact_sha = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"digest = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5503,negative:fake_base64
+"x_request_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4302,negative:hex_hash
+"job_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4931,negative:fake_base64
+"digest = ""J5J4x6mKZpRsQXXJcHPeOaAEAw3CjkGO""",0,-1,-1,4.9901,negative:random_entropy
+"nonce = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1689,negative:hex_hash
+"image_digest = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3006,negative:placeholder
+"build_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1436,negative:hex_hash
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"iv = ""rBUJPuEuEvqrK2IGlozIoDSBbszpPwIv""",0,-1,-1,4.58,negative:random_entropy
+"artifact_sha = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"build_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0817,negative:placeholder
+"build_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0471,negative:uuid_like
+"x_request_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.7657,negative:fake_base64
+"pipeline_run = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.589,negative:fake_base64
+"nonce = ""U6QlTrKVL8ZswsRhcds6NUgarDv7p1he""",0,-1,-1,4.8505,negative:random_entropy
+"job_id = ""JQjY6fpIzKMWx4sKAJd7gVMqfoIjzQDc""",0,-1,-1,4.8041,negative:random_entropy
+"release_fingerprint = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.3682,negative:uuid_like
+"span_id = ""Q5WMO5AHO4ZektUJrhQR6FEecAtpf7ZJ""",0,-1,-1,4.9594,negative:random_entropy
+"signature = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1876,negative:uuid_like
+"nonce = ""VkGBr9BY8DztgjzEPyVcfphV1Za1CdGM""",0,-1,-1,4.8982,negative:random_entropy
+"traceparent = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2714,negative:placeholder
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"otel_trace_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4031,negative:hex_hash
+"release_fingerprint = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.3682,negative:uuid_like
+"x_request_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.312,negative:placeholder
+"job_id = ""8LojIIf94ChZESFqZ8pIx5F21rWz5FYr""",0,-1,-1,4.833,negative:random_entropy
+"signature = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4065,negative:hex_hash
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"iv = ""YOUR_API_KEY_HERE""",0,-1,-1,3.8554,negative:placeholder
+"artifact_sha = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"commit_hash = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4728,negative:hex_hash
+"pipeline_run = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2417,negative:placeholder
+"datadog_span = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6194,negative:fake_base64
+"commit_hash = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4728,negative:hex_hash
+"image_digest = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"nonce = ""tD4x9XOj7h7ug0g4ai18eWqMyeuPH7M3""",0,-1,-1,4.8326,negative:random_entropy
+"traceparent = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3163,negative:hex_hash
+"correlation_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4708,negative:hex_hash
+"checksum = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4996,negative:fake_base64
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"signature = ""AgN2BR4cXsxjGJXke1Mo4iCppaX3QjBv""",0,-1,-1,4.9419,negative:random_entropy
+"checksum = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1287,negative:uuid_like
+"build_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0817,negative:placeholder
+"job_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0661,negative:placeholder
+"commit_hash = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5964,negative:fake_base64
+"x_request_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.312,negative:placeholder
+"commit_hash = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5964,negative:fake_base64
+"artifact_sha = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4436,negative:hex_hash
+"job_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1581,negative:hex_hash
+"span_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0838,negative:uuid_like
+"build_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0817,negative:placeholder
+"build_id = ""JQUdLE4rXLvNMQSOZM4OtBJTfsUkiH8G""",0,-1,-1,4.8805,negative:random_entropy
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"job_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0661,negative:placeholder
+"x_request_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"correlation_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.4267,negative:placeholder
+"datadog_span = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6194,negative:fake_base64
+"iv = ""YOUR_API_KEY_HERE""",0,-1,-1,3.8554,negative:placeholder
+"correlation_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.312,negative:uuid_like
+"span_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.1423,negative:placeholder
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"image_digest = ""CPPKY6gob2I4ndZ4szi6sEg3iCPU6zUj""",0,-1,-1,4.6705,negative:random_entropy
+"otel_trace_id = ""ZM6rQnBow8w3Ndr86ZfnN8du9WmZIKYo""",0,-1,-1,4.8084,negative:random_entropy
+"span_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.2484,negative:hex_hash
+"otel_trace_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2353,negative:uuid_like
+"iv = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3894,negative:fake_base64
+"otel_span_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2786,negative:uuid_like
+"correlation_id = ""ObaWoukdTGUDWFgF6cW1GC7dDyQE4efL""",0,-1,-1,5.0006,negative:random_entropy
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"checksum = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.35,negative:hex_hash
+"iv = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.0704,negative:hex_hash
+"commit_hash = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2763,negative:uuid_like
+"salt = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1531,negative:hex_hash
+"release_fingerprint = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.3682,negative:uuid_like
+"digest = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1871,negative:hex_hash
+"x_request_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.312,negative:placeholder
+"job_id = ""0OVSnBovCzfAPxj5eZffTYIKIuhvPU1S""",0,-1,-1,4.9436,negative:random_entropy
+"job_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1581,negative:hex_hash
+"x_request_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"salt = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1531,negative:hex_hash
+"otel_trace_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6421,negative:fake_base64
+"datadog_span = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"signature = ""vIhroAIVMPILOQbqV5vliOeT8fGxCjtu""",0,-1,-1,4.9854,negative:random_entropy
+"correlation_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4708,negative:hex_hash
+"artifact_sha = ""jUdfBALznFvgQKGtn9dm6VVrhEAiHoIP""",0,-1,-1,5.0125,negative:random_entropy
+"checksum = ""yUBCetAzNrz7k6CQwBgBye1UnWeNGmWv""",0,-1,-1,4.7195,negative:random_entropy
+"datadog_span = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6194,negative:fake_base64
+"salt = ""jmLVOkVEUVB5INM1MjeBsrdFtCdZe11M""",0,-1,-1,4.6194,negative:random_entropy
+"release_fingerprint = ""YOUR_API_KEY_HERE""",0,-1,-1,4.4427,negative:placeholder
+"iv = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.0704,negative:hex_hash
+"otel_trace_id = ""BYOtDjdg3vSFkpBBGjxrzuLWOefQrSO4""",0,-1,-1,4.9284,negative:random_entropy
+"correlation_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.312,negative:uuid_like
+"otel_trace_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4031,negative:hex_hash
+"job_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0214,negative:uuid_like
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"correlation_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4708,negative:hex_hash
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"checksum = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2566,negative:placeholder
+"otel_trace_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2353,negative:uuid_like
+"correlation_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4708,negative:hex_hash
+"salt = ""YOUR_API_KEY_HERE""",0,-1,-1,4.027,negative:placeholder
+"span_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0838,negative:uuid_like
+"job_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0214,negative:uuid_like
+"jaeger_trace = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"nonce = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.9407,negative:uuid_like
+"datadog_span = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6194,negative:fake_base64
+"otel_trace_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6421,negative:fake_base64
+"job_id = ""sWFHTGP2MLjlQM3ScwS8LUWoo7W4mQJB""",0,-1,-1,4.8795,negative:random_entropy
+"salt = ""YOUR_API_KEY_HERE""",0,-1,-1,4.027,negative:placeholder
+"image_digest = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3486,negative:hex_hash
+"jaeger_trace = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"otel_trace_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4031,negative:hex_hash
+"traceparent = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1079,negative:uuid_like
+"artifact_sha = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"x_request_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4302,negative:hex_hash
+"x_request_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4302,negative:hex_hash
+"correlation_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.312,negative:uuid_like
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"salt = ""YOUR_API_KEY_HERE""",0,-1,-1,4.027,negative:placeholder
+"image_digest = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"traceparent = ""6nBvbdFo9xb50OXirZRiRBaepZITGgrs""",0,-1,-1,4.8035,negative:random_entropy
+"image_digest = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"release_fingerprint = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.5618,negative:hex_hash
+"traceparent = ""g4KbFpiAMozPf8eGF9IyDN8pbWvTMVTu""",0,-1,-1,4.9702,negative:random_entropy
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"checksum = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1287,negative:uuid_like
+"release_fingerprint = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.7618,negative:fake_base64
+"checksum = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2566,negative:placeholder
+"otel_trace_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6421,negative:fake_base64
+"otel_span_id = ""S6cmX2ttyYDcOr1cOqXByB7vlQwXqfAA""",0,-1,-1,4.9562,negative:random_entropy
+"job_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1581,negative:hex_hash
+"x_request_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"release_fingerprint = ""usBSkBBT4MANXdPzFUjb0QBhoOw6cjBw""",0,-1,-1,5.1223,negative:random_entropy
+"checksum = ""JGyOphTExIqqB9r4Eh0C3BfQ0tveH30S""",0,-1,-1,4.925,negative:random_entropy
+"artifact_sha = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"datadog_span = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3203,negative:hex_hash
+"job_id = ""9XoEwJC8i2eySDzzJhteCGhZIKViF1ZG""",0,-1,-1,4.8506,negative:random_entropy
+"otel_span_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6866,negative:fake_base64
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"salt = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.935,negative:uuid_like
+"correlation_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.312,negative:uuid_like
+"jaeger_trace = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.135,negative:uuid_like
+"build_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1436,negative:hex_hash
+"checksum = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4996,negative:fake_base64
+"digest = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0054,negative:uuid_like
+"correlation_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4708,negative:hex_hash
+"checksum = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.35,negative:hex_hash
+"signature = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.7871,negative:fake_base64
+"otel_trace_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4031,negative:hex_hash
+"digest = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5503,negative:fake_base64
+"pipeline_run = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4282,negative:hex_hash
+"traceparent = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3163,negative:hex_hash
+"release_fingerprint = ""f6VqnJMb3HNspYzCQjzCvi1t9vyVFgoh""",0,-1,-1,5.0169,negative:random_entropy
+"otel_trace_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6421,negative:fake_base64
+"traceparent = ""d61z73Y5Slj9C2EfyCoKdrL0Pragiqwz""",0,-1,-1,5.0276,negative:random_entropy
+"traceparent = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2714,negative:placeholder
+"iv = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.0704,negative:hex_hash
+"artifact_sha = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"job_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1581,negative:hex_hash
+"signature = ""xBIZMLhfx9IwiLyccSXGj3i5tyM0KFFE""",0,-1,-1,4.9854,negative:random_entropy
+"nonce = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.9407,negative:uuid_like
+"traceparent = ""wP8KXSQbD7WWJSKkMM0jQb6gbtjQzW52""",0,-1,-1,4.8137,negative:random_entropy
+"salt = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4155,negative:fake_base64
+"iv = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3894,negative:fake_base64
+"nonce = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.9407,negative:uuid_like
+"commit_hash = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4728,negative:hex_hash
+"otel_span_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2786,negative:uuid_like
+"iv = ""YOUR_API_KEY_HERE""",0,-1,-1,3.8554,negative:placeholder
+"iv = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.8435,negative:uuid_like
+"checksum = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1287,negative:uuid_like
+"digest = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0054,negative:uuid_like
+"jaeger_trace = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2195,negative:placeholder
+"build_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3782,negative:fake_base64
+"job_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1581,negative:hex_hash
+"job_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4931,negative:fake_base64
+"jaeger_trace = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.135,negative:uuid_like
+"pipeline_run = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2417,negative:placeholder
+"artifact_sha = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"build_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1436,negative:hex_hash
+"x_request_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"iv = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.0704,negative:hex_hash
+"commit_hash = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2942,negative:placeholder
+"otel_trace_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2353,negative:uuid_like
+"traceparent = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1079,negative:uuid_like
+"correlation_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.312,negative:uuid_like
+"release_fingerprint = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.3682,negative:uuid_like
+"nonce = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,3.9407,negative:uuid_like
+"jaeger_trace = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"build_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1436,negative:hex_hash
+"build_id = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1436,negative:hex_hash
+"x_request_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.7657,negative:fake_base64
+"signature = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4065,negative:hex_hash
+"datadog_span = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6194,negative:fake_base64
+"nonce = ""PGNdzSgVaI5z52Dm7tO4fJHS64k2k59y""",0,-1,-1,4.8982,negative:random_entropy
+"job_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4931,negative:fake_base64
+"build_id = ""aJg8r9HE60DlgkCplTXJUk13ZFfPliup""",0,-1,-1,4.8529,negative:random_entropy
+"datadog_span = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"build_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0817,negative:placeholder
+"job_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0214,negative:uuid_like
+"signature = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4065,negative:hex_hash
+"signature = ""qwoPCjQ53VQN6wn7DC9xR4UXZVQKWGGw""",0,-1,-1,5.056,negative:random_entropy
+"image_digest = ""dHFJjuGhmKfFYCFCdCYSyYUJcvd95e5b""",0,-1,-1,4.7776,negative:random_entropy
+"otel_trace_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6421,negative:fake_base64
+"artifact_sha = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"release_fingerprint = ""YOUR_API_KEY_HERE""",0,-1,-1,4.4427,negative:placeholder
+"commit_hash = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2942,negative:placeholder
+"traceparent = ""QPHOvlHGTnabsPHGZpvr6SgYzV2amgcL""",0,-1,-1,4.7618,negative:random_entropy
+"traceparent = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5842,negative:fake_base64
+"release_fingerprint = ""YOUR_API_KEY_HERE""",0,-1,-1,4.4427,negative:placeholder
+"iv = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3894,negative:fake_base64
+"traceparent = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5842,negative:fake_base64
+"salt = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4155,negative:fake_base64
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"pipeline_run = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4282,negative:hex_hash
+"digest = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1871,negative:hex_hash
+"datadog_span = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2032,negative:uuid_like
+"otel_trace_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2353,negative:uuid_like
+"datadog_span = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3203,negative:hex_hash
+"job_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.0661,negative:placeholder
+"traceparent = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1079,negative:uuid_like
+"signature = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4065,negative:hex_hash
+"checksum = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4996,negative:fake_base64
+"iv = ""YOUR_API_KEY_HERE""",0,-1,-1,3.8554,negative:placeholder
+"traceparent = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2714,negative:placeholder
+"checksum = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1287,negative:uuid_like
+"salt = ""YOUR_API_KEY_HERE""",0,-1,-1,4.027,negative:placeholder
+"image_digest = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1797,negative:uuid_like
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"commit_hash = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2763,negative:uuid_like
+"iv = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.3894,negative:fake_base64
+"datadog_span = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"job_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4931,negative:fake_base64
+"release_fingerprint = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.7618,negative:fake_base64
+"jaeger_trace = ""I8IipmO50fSlqPL2lVSID1u7a67h9DpL""",0,-1,-1,4.9562,negative:random_entropy
+"datadog_span = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"pipeline_run = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4282,negative:hex_hash
+"commit_hash = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2763,negative:uuid_like
+"iv = ""YOUR_API_KEY_HERE""",0,-1,-1,3.8554,negative:placeholder
+"job_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.0214,negative:uuid_like
+"artifact_sha = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"nonce = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.1689,negative:hex_hash
+"x_request_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.312,negative:placeholder
+"pipeline_run = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2417,negative:placeholder
+"artifact_sha = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6682,negative:fake_base64
+"image_digest = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.1797,negative:uuid_like
+"span_id = ""Injq5JzjuxZEOQpY7NEkXkSE4HNdc06P""",0,-1,-1,4.9877,negative:random_entropy
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"correlation_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6935,negative:fake_base64
+"span_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.5515,negative:fake_base64
+"salt = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.4155,negative:fake_base64
+"artifact_sha = ""YOUR_API_KEY_HERE""",0,-1,-1,4.2784,negative:placeholder
+"checksum = ""MPMDEaIaGr8bYPX4gfjlGYqyxzJ9oQ0O""",0,-1,-1,5.1363,negative:random_entropy
+"otel_span_id = ""fxIdakEAWJ1fGcn13Dce53Ic5t7KUSye""",0,-1,-1,4.9308,negative:random_entropy
+"datadog_span = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.3203,negative:hex_hash
+"commit_hash = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4728,negative:hex_hash
+"pipeline_run = ""9e107d9d372bb6826bd81d3542a419d6""",0,-1,-1,4.4282,negative:hex_hash
+"otel_trace_id = ""YOUR_API_KEY_HERE""",0,-1,-1,4.3189,negative:placeholder
+"artifact_sha = ""F8dBZvV7yVbq9Ew6AQOfMXSfjSNTtgat""",0,-1,-1,5.0279,negative:random_entropy
+"x_request_id = ""550e8400-e29b-41d4-a716-446655440000""",0,-1,-1,4.2551,negative:uuid_like
+"correlation_id = ""dGhpc2lzbm90YXNlY3JldA==""",0,-1,-1,4.6935,negative:fake_base64
