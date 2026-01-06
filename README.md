@@ -7,7 +7,8 @@ This project explores a **hybrid multi-task learning approach** for detecting ha
 
 Traditional tools like Gitleaks and TruffleHog are powerful but brittle; they struggle when secrets are obfuscated or placed in unusual contexts. This project leverages a **CodeBERT** encoder to reason over the semantic usage of strings, maintaining high recall even under adversarial conditions. 
 
-I have uploaded most of the dataset (generated) and code files that I used during this project.
+I have uploaded most of the dataset (generated) and code files that I used during this project.  
+You can find the best_model.pt here - [Hugging Face](https://huggingface.co/d3nji/hidden-secrets-hybrid/tree/main)
 
 ### Key Highlights
 
