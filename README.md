@@ -2,6 +2,8 @@
 
 This project explores a **hybrid multi-task learning approach** for detecting hard-coded secrets in source code. By jointly training on **classification**, **span localization**, and **entropy regression**, the model moves beyond simple pattern matching to a deeper semantic understanding of code context. 
 
+## **DO Read the Project Report for detailed summary**
+
 
 ## Project Overview
 
