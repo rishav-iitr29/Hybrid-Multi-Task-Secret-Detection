@@ -18,41 +18,33 @@ Traditional tools like Gitleaks and TruffleHog are powerful but brittle; they st
 * **Bias Correction**: Implements prefix padding and structural wrappers to eliminate positional bias in span detection. 
 
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The core of the project is a **shared CodeBERT encoder** branching into three specialized task heads. 
 
 ### 1. The Task Heads
 
-* 
-**Classification Head**: Performs binary classification (Secret vs. No Secret). 
+* **Classification Head**: Performs binary classification (Secret vs. No Secret). 
 
 
-* 
-**Span Heads**: Predicts token-level start and end positions for localization. 
+* **Span Heads**: Predicts token-level start and end positions for localization. 
 
 
-* 
-**Entropy Head**: A regression head that estimates the statistical randomness of the identified string. 
+* **Entropy Head**: A regression head that estimates the statistical randomness of the identified string. 
 
-<img src="/misc/architecture_diagram.png" alt="Architecture Diagram" width="70%" />
+<img src="/misc/architecture_diagram.png" alt="Architecture Diagram" width="100%" />
 
 ### 2. Multi-Task Loss Strategy
 
 To balance these objectives, we use a weighted loss function:
 
-\[
-\mathcal{L}_{\text{total}}
-= c_1 \cdot \mathcal{L}_{\text{BCE}}
-+ c_2 \cdot \mathcal{L}_{\text{MSE}}
-+ c_3 \cdot \mathcal{L}_{\text{Span}}
-\]
+Total Loss = c1 * BCE + c2 * MSE + c3 * SpanLoss
 
-where:
-- \(\mathcal{L}_{\text{BCE}}\) is the **binary cross-entropy loss** for secret classification  
-- \(\mathcal{L}_{\text{MSE}}\) is the **mean squared error loss** for entropy regression  
-- \(\mathcal{L}_{\text{Span}}\) is the **masked span localization loss**  
-- \(c_1, c_2, c_3\) are task-specific weighting coefficients
+Where:
+- BCE = Binary Cross-Entropy (classification)
+- MSE = Mean Squared Error (entropy regression)
+- SpanLoss = masked start/end span loss
+- c1, c2, c3 = loss weights
 
 We employed a two-stage training strategy:
 
