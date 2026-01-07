@@ -10,7 +10,6 @@ This project explores a **hybrid multi-task learning approach** for detecting ha
 Traditional tools like Gitleaks and TruffleHog are powerful but brittle; they struggle when secrets are obfuscated or placed in unusual contexts. This project leverages a **CodeBERT** encoder to reason over the semantic usage of strings, maintaining high recall even under adversarial conditions. 
 
 I have uploaded most of the dataset (generated) and code files that I used during this project.  
-You can find the best_model.pt here - [Hugging Face](https://huggingface.co/d3nji/hidden-secrets-hybrid/tree/main)
 
 ### Key Highlights
 
@@ -108,10 +107,17 @@ The model was benchmarked against a baseline classifier and standard regex-based
 
 ### CLI Scanner
 
+IMPORTANT - This CLI scanner is really basic and needs a lot of improvement.
+
 The CLI scanner allows you to run the Hybrid Multi-Task model against local files or entire repositories.
 
+#### How to run ?
+1. Clone the repository
+2. Save the best_model.pt from [Hugging Face](https://huggingface.co/d3nji/hidden-secrets-hybrid/tree/main) in hybrid_model_architecture/hybrid_outputs/
+3. Run the commands from parent project directory.
+
 Basic command : (make sure to run it from the parent project directory)\
-**`python scan_secrets.py scan <path_to_scan> --model <path_to_checkpoint.pt>`**
+**`python scan_secrets.py scan <path_to_scan> --model <path_to_checkpoint.pt> [options]`**
 
 #### CLI Options
 
