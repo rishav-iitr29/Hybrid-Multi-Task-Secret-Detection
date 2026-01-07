@@ -1,0 +1,1501 @@
+source,code_snippet,secret_span_start,secret_span_end,file_path,line_number,length,has_secret,hard_negative,entropy,rule
+hard_negative,"fetch_by_hash(""NBN18x5N4tx6uSJ0cM"")",-1,-1,-1,-1,-1,0,1,3.795,fake_entropy
+hard_negative,"fetch_by_hash(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"log_request(""xv2/UOSSX3P3LQMlnIRJmfaQXZi+mj+H5LO6XpkI"")",-1,-1,-1,-1,-1,0,1,4.803,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"trace_id = ""ec88289638930fbe8c9243c45c42771365d32fac""",-1,-1,-1,-1,-1,0,1,3.763,fake_entropy
+hard_negative,"request_id = ""ZFUYOsA5hJqrHcxE43zaWU8NXcAeO1ScbimwQvFI""",-1,-1,-1,-1,-1,0,1,5.003,fake_entropy
+hard_negative,"cache_key = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""6387d9e2ed020010a742e649c4b15043""",-1,-1,-1,-1,-1,0,1,3.715,hash_or_id
+hard_negative,"trace_id = ""activity""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"request_id = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""KaAAEZxuzhJaYTaLviqsbm3waUi/NBHS"" } }",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"trace_id = ""adapter""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"trace_id = ""object_id""",-1,-1,-1,-1,-1,0,1,3.17,stopword
+hard_negative,"fetch_by_hash(""f89d1330a33196bdcee348adaa2ece6f"")",-1,-1,-1,-1,-1,0,1,3.614,hash_or_id
+hard_negative,"cache_key = ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"cache_key = ""ec4a5ee4d3c291bc79562464abaed9dd""",-1,-1,-1,-1,-1,0,1,3.554,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""8939617e982d072e67e9620c4cb33455"" } }",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""3c6046785cf0cd014e8f4f173b71a359"")",-1,-1,-1,-1,-1,0,1,3.772,hash_or_id
+hard_negative,"request_id = ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"log_request(""7edc9dccd4fe9284eb219c64ad8318a2339f9d4a9d6242ceed2338a3b0a"")",-1,-1,-1,-1,-1,0,1,3.703,fake_entropy
+hard_negative,"fetch_by_hash(""salt"")",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""action"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"cache_key = ""5ac17530fcf5f9d59688323aa30a5a5d""",-1,-1,-1,-1,-1,0,1,3.441,hash_or_id
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""8e6c54947b437574c6480c"")",-1,-1,-1,-1,-1,0,1,3.227,fake_entropy
+hard_negative,"fetch_by_hash(""8d733a8a875781e61bf5d5277b115e82"")",-1,-1,-1,-1,-1,0,1,3.399,fake_entropy
+hard_negative,"build: checksum: ""element_id""",-1,-1,-1,-1,-1,0,1,2.846,stopword
+hard_negative,"fetch_by_hash(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""checksum"")",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""564416881fbcc4d418eebaed643bbbf2"" } }",-1,-1,-1,-1,-1,0,1,3.493,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""mib2hIj3F6dBL6lt/EOBEP/o"" } }",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"request_id = ""Xuiq+K+Pgej2vZqP2Pe5L31jHB6IifvA""",-1,-1,-1,-1,-1,0,1,4.414,fake_entropy
+hard_negative,"cache_key = ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"build: checksum: ""3115bfdb3db8018bc2eaca20faf92373""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""03d5afbacf6e92ba0597e7632e6b731f""",-1,-1,-1,-1,-1,0,1,3.71,fake_entropy
+hard_negative,"get_user_by_id(""Xx3DsPyZXoo633QSD3xA64DZ3ebHZUj2hjce3UNAUM25Xl3T1+"")",-1,-1,-1,-1,-1,0,1,4.59,fake_entropy
+hard_negative,"request_id = ""3syWPRG2TSGIWR7RdC7Cj26Np7eVEe+I""",-1,-1,-1,-1,-1,0,1,4.328,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""object_id"")",-1,-1,-1,-1,-1,0,1,3.17,stopword
+hard_negative,"get_user_by_id(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""uuid""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"log_request(""di+j0Xgo1PBgFNt+l96K7WtCkMPdRJj7YQ01W0G45k5C"")",-1,-1,-1,-1,-1,0,1,4.806,fake_entropy
+hard_negative,"request_id = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"get_user_by_id(""commit_sha"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"cache_key = ""020c624971cb712402685d2ed552c13a""",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"cache_key = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""452ff0be8f04ea441b64e6bc752aa3b50""",-1,-1,-1,-1,-1,0,1,3.609,fake_entropy
+hard_negative,"fetch_by_hash(""nonce"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"request_id = ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""e89932cbf0c61636000aeac137f05c6f"")",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""95f3e9d9fd546dce60a714f3ec998a63""",-1,-1,-1,-1,-1,0,1,3.644,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""57f67d3a42ed6d2dedf5dfc04707ba72"" } }",-1,-1,-1,-1,-1,0,1,3.48,hash_or_id
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""TODO"" } }",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"request_id = ""37caec36fac0fdca0a4b619e061271b6""",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin"" } }",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"trace_id = ""014df517-39d1-4453-b7b3-9930c563627c""",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"trace_id = ""f20d07efab69b15f6cdc0404e07ae0ba""",-1,-1,-1,-1,-1,0,1,3.608,hash_or_id
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""92e1aa5e2d9e40e60227ec243b801493""",-1,-1,-1,-1,-1,0,1,3.641,hash_or_id
+hard_negative,"log_request(""1d0988f503443b2268782b4df408d92a"")",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"trace_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"cache_key = ""c7ab93b68d794ea0421a88e19bc49150""",-1,-1,-1,-1,-1,0,1,3.757,fake_entropy
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""2MsCFALTvEZDxLHitiHNNXgnCBPkLP3imeuQ""",-1,-1,-1,-1,-1,0,1,4.684,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""b8a8d6992f5a11fb4cfd1567a87dd1e4""",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"fetch_by_hash(""286b66c5d7f1735a9be088f53dce511e"")",-1,-1,-1,-1,-1,0,1,3.781,hash_or_id
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""4479574730db1cce0552857b37230ef1""",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""build_id"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"log_request(""9a0845782505d9cfd3e888832af58c53"")",-1,-1,-1,-1,-1,0,1,3.437,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""v9HYqckB4lqfpZ2tm6OEIlt/"" } }",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"build: checksum: ""5ca4a04f001e366f5e91f2d3fb0be343""",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"log_request(""608267235d27e60e5ccc0b815908e5c5"")",-1,-1,-1,-1,-1,0,1,3.48,hash_or_id
+hard_negative,"fetch_by_hash(""iv"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"request_id = ""08369f61b9ebbde13ce2eac391205cc9""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"log_request(""0f23b4955e5aa4bc27c223ff169fff61961738d1"")",-1,-1,-1,-1,-1,0,1,3.809,fake_entropy
+hard_negative,"build: checksum: ""4aaddfcf1e3db484a0d8eab4698495d21c5b9cd5""",-1,-1,-1,-1,-1,0,1,3.7,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""mock"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""5a9a066315d21fb9ff0a344d44e930ea"")",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"build: checksum: ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"cache_key = ""hash""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"cache_key = ""57fb19c574944ef8d510b22d4031d43d""",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"cache_key = ""Cs8gWOlqvLctv2iIT5nfl2al""",-1,-1,-1,-1,-1,0,1,4.22,fake_entropy
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""27eb241f911707eb5b43163b581dba91"")",-1,-1,-1,-1,-1,0,1,3.629,fake_entropy
+hard_negative,"build: checksum: ""2b35f72c1bd801a734ca2dd1fcf9fa1b""",-1,-1,-1,-1,-1,0,1,3.632,hash_or_id
+hard_negative,"fetch_by_hash(""checksum"")",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"cache_key = ""4eff5cd7cccf532f3954c01456792918""",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"build: checksum: ""4654a877b666341ec5668b5613a41f07""",-1,-1,-1,-1,-1,0,1,3.44,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""VIiznBOkxr0wZrjbsWU/Cozp"")",-1,-1,-1,-1,-1,0,1,4.418,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""abcdefghijklmnopqrstuvwxyz"" } }",-1,-1,-1,-1,-1,0,1,4.7,stopword
+hard_negative,"build: checksum: ""2fdb38714df8bf196fef8be1aeccf770""",-1,-1,-1,-1,-1,0,1,3.647,hash_or_id
+hard_negative,"log_request(""3b23a195c5e60c4deae459deda3a72bd"")",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""admin"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"cache_key = ""asset_name""",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"log_request(""/z/v4ju93GH/xQfrswz9ohpTKPl4p/6U"")",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"get_user_by_id(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""iY4jNIM1K1ZAVRCgpT32a1cidwAX6l1A""",-1,-1,-1,-1,-1,0,1,4.539,fake_entropy
+hard_negative,"cache_key = ""8e23e3b2a2dab54348c67b03f29422d8""",-1,-1,-1,-1,-1,0,1,3.632,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""md5"" } }",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"fetch_by_hash(""B6U1k7cpDfNQosAsGGPsABSIdn1nA/aQ"")",-1,-1,-1,-1,-1,0,1,4.39,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""example"" } }",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"cache_key = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""37cb0e7bf8e981bfa517ec7156594462""",-1,-1,-1,-1,-1,0,1,3.781,fake_entropy
+hard_negative,"request_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""addon"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"fetch_by_hash(""request_id"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"get_user_by_id(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""d4cd5441cdaebbe000591c7223e9b70d"")",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""3dee567cad6bf0c2eb3ec632046fed02""",-1,-1,-1,-1,-1,0,1,3.519,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""adapter"" } }",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"fetch_by_hash(""045cd29b1a73e6fa6575f34e0309fa6a"")",-1,-1,-1,-1,-1,0,1,3.757,hash_or_id
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"cache_key = ""1a64a7322fad30b396d6eb75ebdf2e9b""",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"log_request(""iv"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""c1738cb562a5d71b756ebab7b33d943a"" } }",-1,-1,-1,-1,-1,0,1,3.59,fake_entropy
+hard_negative,"get_user_by_id(""RiOh9IebsOg0WAaAIdde9S26"")",-1,-1,-1,-1,-1,0,1,4.085,fake_entropy
+hard_negative,"request_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""account"")",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""activity""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"build: checksum: ""f7e624243501fc85265229d8b5319033""",-1,-1,-1,-1,-1,0,1,3.7,hash_or_id
+hard_negative,"trace_id = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"request_id = ""hash""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"cache_key = ""4aecaf27869383d4792c5a0fb3dd55b0""",-1,-1,-1,-1,-1,0,1,3.843,hash_or_id
+hard_negative,"build: checksum: ""79ee288dbf8bae3d0d981ee4b36fef4f""",-1,-1,-1,-1,-1,0,1,3.531,hash_or_id
+hard_negative,"log_request(""8c6262ce0932fcfeb2877c18c654d6e0"")",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"trace_id = ""i+MzgDq7ooHlvcF3BOwOc8zR""",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"build: checksum: ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"fetch_by_hash(""2a31df953edf0acd118e08a89a0d1fec"")",-1,-1,-1,-1,-1,0,1,3.468,hash_or_id
+hard_negative,"log_request(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""adapter"")",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"cache_key = ""dfe440619f8d7fff989943d31c720724""",-1,-1,-1,-1,-1,0,1,3.528,hash_or_id
+hard_negative,"request_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"cache_key = ""Gz293icc+neD3VnArnlTu2SGlbxpHlsa""",-1,-1,-1,-1,-1,0,1,4.453,fake_entropy
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""TODO"" } }",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""525d0d4797364ceaac9add3ec0d7d4be"")",-1,-1,-1,-1,-1,0,1,3.522,fake_entropy
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""317c4c3af2810e469dc152ac""",-1,-1,-1,-1,-1,0,1,3.72,fake_entropy
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""c01a88d27cdd5585f46ef77449009a90""",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"trace_id = ""458d1bc745687c7f13efbf7ae4600c86""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""9d597d8183c7b9f2943c493070bf6177""",-1,-1,-1,-1,-1,0,1,3.626,hash_or_id
+hard_negative,"cache_key = ""22da9c8a027646fd64460a74694b""",-1,-1,-1,-1,-1,0,1,3.353,fake_entropy
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"log_request(""build_number"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"request_id = ""yFJ9/1qweb7YDtEILAbj6f5PFqXWMUu+""",-1,-1,-1,-1,-1,0,1,4.812,fake_entropy
+hard_negative,"fetch_by_hash(""build_id"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fingerprint"" } }",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""YX6SsDhQ25/PYNw7MCQheUAmazrF3Dxm"")",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"request_id = ""session_id""",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"request_id = ""IzNumSXzfOk/UqFMWP9Vt8tkPl5xZXM""",-1,-1,-1,-1,-1,0,1,4.567,fake_entropy
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"trace_id = ""3a63474cf033458045ccc772040c425a""",-1,-1,-1,-1,-1,0,1,3.23,hash_or_id
+hard_negative,"fetch_by_hash(""202e3fd9613d023cb10b969ed281c1d6"")",-1,-1,-1,-1,-1,0,1,3.468,hash_or_id
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""ef994627775c0d88dc2dcbe3de91c69a""",-1,-1,-1,-1,-1,0,1,3.765,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""asset_name"" } }",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"fetch_by_hash(""93c4ad01f904df8d5a0dced808ae81ce"")",-1,-1,-1,-1,-1,0,1,3.441,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""ae6993b9d3c03e9240ca347184ff673ecb6c8da9"" } }",-1,-1,-1,-1,-1,0,1,3.766,fake_entropy
+hard_negative,"build: checksum: ""uuid""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"trace_id = ""d801a5b2730623f895446fbea0336bc4""",-1,-1,-1,-1,-1,0,1,3.843,hash_or_id
+hard_negative,"build: checksum: ""729545d3ced0c896a68ae8b7bb8b763a""",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""sample"" } }",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"get_user_by_id(""activity"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"fetch_by_hash(""513f1240ab7408559b6d2fc0035de1a4"")",-1,-1,-1,-1,-1,0,1,3.828,hash_or_id
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""3238e4386f6beaafb511531ad01a46e""",-1,-1,-1,-1,-1,0,1,3.551,fake_entropy
+hard_negative,"build: checksum: ""1943f3560bc89830fdbf0feb76b1e965""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"build: checksum: ""5cf6637cd0862133021a57fd13d049fa""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"trace_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"trace_id = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"fetch_by_hash(""866d0eed36caee817e380cafe8d157f8"")",-1,-1,-1,-1,-1,0,1,3.418,hash_or_id
+hard_negative,"get_user_by_id(""b7b75c2f87ece4f2e0e12b8f64af7bc5"")",-1,-1,-1,-1,-1,0,1,3.515,fake_entropy
+hard_negative,"trace_id = ""id""",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"trace_id = ""version_hash""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"log_request(""f1cefa30364c84b0808082b4aef4d27e"")",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"build: checksum: ""1a437efbd1e18163c417c75ed85837fe""",-1,-1,-1,-1,-1,0,1,3.528,hash_or_id
+hard_negative,"get_user_by_id(""bd41d82d986e7275b20fff8e"")",-1,-1,-1,-1,-1,0,1,3.542,fake_entropy
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""addon"" } }",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"fetch_by_hash(""action"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"cache_key = ""bef07fa5589c702bdac98a21dad5754a2b44af9380d404""",-1,-1,-1,-1,-1,0,1,3.749,fake_entropy
+hard_negative,"get_user_by_id(""about"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"cache_key = ""9285ecc7ee1bc2e69876ad0059545f1e""",-1,-1,-1,-1,-1,0,1,3.715,hash_or_id
+hard_negative,"get_user_by_id(""68852827b42ac382b8df672ced8c3698"")",-1,-1,-1,-1,-1,0,1,3.476,hash_or_id
+hard_negative,"get_user_by_id(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"request_id = ""811a908254371f5319173e4b51d0171a""",-1,-1,-1,-1,-1,0,1,3.492,hash_or_id
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"cache_key = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"get_user_by_id(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"request_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""hash"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"build: checksum: ""967bceae69f823da951149d9027fb67f""",-1,-1,-1,-1,-1,0,1,3.816,hash_or_id
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""slug""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"get_user_by_id(""about"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"log_request(""d789f8402364effcc3400e82a96f0826"")",-1,-1,-1,-1,-1,0,1,3.554,hash_or_id
+hard_negative,"get_user_by_id(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""sPjkRRW5sC3XRatDjQ3QwgOovpRwGI8debjHNf0W"")",-1,-1,-1,-1,-1,0,1,4.753,fake_entropy
+hard_negative,"build: checksum: ""777b03e07c089f3f0ca0411f68be23f8""",-1,-1,-1,-1,-1,0,1,3.59,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""R1hxWZuvr6PlDVQh3E3ZXNeIN096wOBX""",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"log_request(""sha256"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"trace_id = ""84c0323cae5a60276662a749bd0932b7""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"request_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""4dd05e09b8e7f536299e09c6d1003a34"")",-1,-1,-1,-1,-1,0,1,3.754,hash_or_id
+hard_negative,"trace_id = ""386d8549970eb47f26b0fe87776b34f9""",-1,-1,-1,-1,-1,0,1,3.558,hash_or_id
+hard_negative,"trace_id = ""37890bb92f888565626ea5575d116b54""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"build: checksum: ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"cache_key = ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""075d53b02a2f1aeb1a5a4fd1bbfc19a9""",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""3036d3a970cd9077378f30e7e8ae94f5"")",-1,-1,-1,-1,-1,0,1,3.477,hash_or_id
+hard_negative,"cache_key = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"request_id = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""6d3aaa7acea7b5c497c15cd315b3a156"" } }",-1,-1,-1,-1,-1,0,1,3.382,hash_or_id
+hard_negative,"log_request(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""d1045a556571e1f43ae2b93471268c9a"")",-1,-1,-1,-1,-1,0,1,3.828,hash_or_id
+hard_negative,"trace_id = ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""cache_key"")",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"fetch_by_hash(""commit_sha"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"trace_id = ""975aca749b8ec91190c4ddb433a0ecc7""",-1,-1,-1,-1,-1,0,1,3.566,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""sha256"" } }",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""mock"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""625f97cccaa9c54bbc510f722b74042b"")",-1,-1,-1,-1,-1,0,1,3.441,hash_or_id
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""a7c1bc6b0329b1fbb6b78b19f8558c06"")",-1,-1,-1,-1,-1,0,1,3.479,hash_or_id
+hard_negative,"build: checksum: ""275f2ba7c388c0182927d6e6d6245b16""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""id"" } }",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"trace_id = ""6813ffc0777e7b1e83bd1e1b78b6930c""",-1,-1,-1,-1,-1,0,1,3.441,hash_or_id
+hard_negative,"log_request(""11afec9c68991da004c39edf2842b9d3"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"build: checksum: ""checksum""",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"trace_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""cca7698e4fe60408f0249f4f4b8a3d8d""",-1,-1,-1,-1,-1,0,1,3.614,hash_or_id
+hard_negative,"request_id = ""3e5ae263244980852f2736643f6569cc""",-1,-1,-1,-1,-1,0,1,3.528,hash_or_id
+hard_negative,"log_request(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"log_request(""hzWSpKWYfDe8MIVlFCdWOTwOJaAWprH6"")",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"request_id = ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""iv""",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"trace_id = ""ec421e6baf7626d493cd849e502b307a""",-1,-1,-1,-1,-1,0,1,3.906,hash_or_id
+hard_negative,"cache_key = ""9c2a30843137269beacc64b49ee1f025""",-1,-1,-1,-1,-1,0,1,3.796,hash_or_id
+hard_negative,"build: checksum: ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"log_request(""0676730e021a7378a0a39549"")",-1,-1,-1,-1,-1,0,1,3.355,fake_entropy
+hard_negative,"build: checksum: ""adapter""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""3a32d2752525e25003ad7996b5cd3e20""",-1,-1,-1,-1,-1,0,1,3.355,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""8977074c29efcedda54c4f619bb05475"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""c367a8815470411917bfa26eda565741"")",-1,-1,-1,-1,-1,0,1,3.73,hash_or_id
+hard_negative,"request_id = ""17a2b9a6421c24ed88f3719e""",-1,-1,-1,-1,-1,0,1,3.689,fake_entropy
+hard_negative,"build: checksum: ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""rWuZr9Go6wSwUfTtSmln9zCb"")",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"get_user_by_id(""color_hex"")",-1,-1,-1,-1,-1,0,1,2.948,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""build_number"" } }",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"cache_key = ""6e7855198311491fc9b334d13bad71de""",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"trace_id = ""cache_key""",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"cache_key = ""2b675c66b5904fa8523ab7d46a931f30""",-1,-1,-1,-1,-1,0,1,3.781,hash_or_id
+hard_negative,"fetch_by_hash(""utqsP3xiIF5xIf+3i0GZy7d7ysovj2g3"")",-1,-1,-1,-1,-1,0,1,4.476,fake_entropy
+hard_negative,"request_id = ""c3d81fe08a98d9a14c5010f7fd3aaca1""",-1,-1,-1,-1,-1,0,1,3.519,fake_entropy
+hard_negative,"get_user_by_id(""821ac6730a22fb9fae18ff4ae1d6be0b"")",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"build: checksum: ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""d17a77c2b82ab967a02447fc55aa189d"" } }",-1,-1,-1,-1,-1,0,1,3.626,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""a859197652a9a20073c9c9c9ac7ca544"" } }",-1,-1,-1,-1,-1,0,1,3.305,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""abcdefghijklmnopqrstuvwxyz"" } }",-1,-1,-1,-1,-1,0,1,4.7,stopword
+hard_negative,"log_request(""65296f640d8b698f3180d17a47d0c611"")",-1,-1,-1,-1,-1,0,1,3.691,fake_entropy
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""b9a851ce6b754ad1bddf7deb2909c76d"" } }",-1,-1,-1,-1,-1,0,1,3.715,hash_or_id
+hard_negative,"build: checksum: ""f4ca0c6398505e67e8c74f4d1ea3952d""",-1,-1,-1,-1,-1,0,1,3.843,fake_entropy
+hard_negative,"cache_key = ""6c208738d22caa1d9aad59d33e6b0a9d""",-1,-1,-1,-1,-1,0,1,3.579,hash_or_id
+hard_negative,"fetch_by_hash(""9d1d65ea6a6f5448"")",-1,-1,-1,-1,-1,0,1,3.203,fake_entropy
+hard_negative,"fetch_by_hash(""b67560d06f8d53337174e965b03cc4bb09b5ea3e90e"")",-1,-1,-1,-1,-1,0,1,3.697,fake_entropy
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""session_id""",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"log_request(""50ec723d1fed8d5f3dd08900420b5039"")",-1,-1,-1,-1,-1,0,1,3.543,hash_or_id
+hard_negative,"log_request(""1ce34247127296727165a504e102"")",-1,-1,-1,-1,-1,0,1,3.366,fake_entropy
+hard_negative,"fetch_by_hash(""iv"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""8dbfe8f993f4c8593ffcee2e630a24ab"")",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"trace_id = ""5018db0ce6c6d22eed6b203894717a4b""",-1,-1,-1,-1,-1,0,1,3.796,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""uuid"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"fetch_by_hash(""f4b1d11c8e9c97cca41fddaed6c4d2db"")",-1,-1,-1,-1,-1,0,1,3.441,hash_or_id
+hard_negative,"log_request(""fe4fa14230c574d34f1cbfcbb4d3f8b7"")",-1,-1,-1,-1,-1,0,1,3.54,hash_or_id
+hard_negative,"log_request(""77d7602bdc0d507250de0f5b9734e5c2"")",-1,-1,-1,-1,-1,0,1,3.438,hash_or_id
+hard_negative,"trace_id = ""da1a6ee1614941adbd42888e""",-1,-1,-1,-1,-1,0,1,3.178,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test"" } }",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""f211c4f660c2c80749334c673dd4507a"")",-1,-1,-1,-1,-1,0,1,3.656,fake_entropy
+hard_negative,"build: checksum: ""5f84642ddded37797e6e03bc8cf45d07""",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"get_user_by_id(""admin"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"request_id = ""731cbc43a35d8ab4d82e4ab45bd8d778""",-1,-1,-1,-1,-1,0,1,3.429,hash_or_id
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""516f2a813b1256e96f3476eec6896bdb"" } }",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"get_user_by_id(""hash"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""activity"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"trace_id = ""active""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"fetch_by_hash(""dDq5xWKzK3EFyohb1C+AqvPhkItm+feW8OXX1WPg"")",-1,-1,-1,-1,-1,0,1,4.853,fake_entropy
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"build: checksum: ""c59c37651f454d17abecf8c235b5701""",-1,-1,-1,-1,-1,0,1,3.757,fake_entropy
+hard_negative,"fetch_by_hash(""eabd957ec9b804564139aab498ed0cef"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"build: checksum: ""37fa7c55d6da7ad91a55d7a2d564cd83""",-1,-1,-1,-1,-1,0,1,3.352,hash_or_id
+hard_negative,"request_id = ""0feafa4fdd3944ab532d13c64c079ad6""",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""addon"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"get_user_by_id(""56baf2d625b7b4963b3efb4ae08e862c"")",-1,-1,-1,-1,-1,0,1,3.715,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""aPF8rEHK7ICL+oHajERDUsyUkfYEEtSf"" } }",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"request_id = ""checksum""",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"request_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""0oPUZYeRMYdZLZ7YP/x0kQuvxKIGh7"")",-1,-1,-1,-1,-1,0,1,4.323,fake_entropy
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"log_request(""a10c0159ac259d617261dffef7539e89"")",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""100b39d43964fe8128958d81d49dc6b6"" } }",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""0b5589b3a3c3bc3d4f4652b5b6ec2330"")",-1,-1,-1,-1,-1,0,1,3.504,fake_entropy
+hard_negative,"log_request(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""dAcM5+vt4eNQYtyxkHoNYbUsVNyqUG14"")",-1,-1,-1,-1,-1,0,1,4.539,fake_entropy
+hard_negative,"fetch_by_hash(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""asset_name"")",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"trace_id = ""aMiruDLte9S8d928SYhQ36vUHy6NXWtiJ""",-1,-1,-1,-1,-1,0,1,4.681,fake_entropy
+hard_negative,"fetch_by_hash(""67dcb215fb64bc7731518745b719c3ce"")",-1,-1,-1,-1,-1,0,1,3.551,hash_or_id
+hard_negative,"trace_id = ""job_id""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""trace_id"")",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"cache_key = ""b14edb284085f0fd24aab4bcca3c3384e1861e2d306""",-1,-1,-1,-1,-1,0,1,3.731,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"cache_key = ""account""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"fetch_by_hash(""aa396abebe17aabcd7ace6737361d880"")",-1,-1,-1,-1,-1,0,1,3.421,hash_or_id
+hard_negative,"request_id = ""9fe63a5f011216bc842dce631c335871""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"request_id = ""asset_name""",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""66df72996a468ca89e34fc85037a92ed"")",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""session_id"" } }",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""checksum"")",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"request_id = ""f9b55b33c4d0405b32f1b15b1d92f6b8""",-1,-1,-1,-1,-1,0,1,3.507,fake_entropy
+hard_negative,"log_request(""trace_id"")",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"get_user_by_id(""01732d4d61f0275d7c8cc49f3e165adb"")",-1,-1,-1,-1,-1,0,1,3.867,hash_or_id
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""85129076a4c4016b2815eb68"")",-1,-1,-1,-1,-1,0,1,3.574,fake_entropy
+hard_negative,"build: checksum: ""014df517-39d1-4453-b7b3-9930c563627c""",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""c2b8446b12f8eaf60c5fc136d6c327d1"" } }",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""8df14fa87384c9c7c19f40a3a81d4472"")",-1,-1,-1,-1,-1,0,1,3.457,hash_or_id
+hard_negative,"cache_key = ""dd8a0fe69748c478bea54c836090bfb1""",-1,-1,-1,-1,-1,0,1,3.804,hash_or_id
+hard_negative,"fetch_by_hash(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"get_user_by_id(""518e1ea36596880f049065f53352f09c"")",-1,-1,-1,-1,-1,0,1,3.519,hash_or_id
+hard_negative,"fetch_by_hash(""72b26ccaaeabae862553be6e67c48178"")",-1,-1,-1,-1,-1,0,1,3.445,fake_entropy
+hard_negative,"cache_key = ""c042def27e615df2e287cd8a5b0bb9d9d4e06fb7""",-1,-1,-1,-1,-1,0,1,3.775,fake_entropy
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""aceb87a3b7b75caa91986b967cf40d34"" } }",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"trace_id = ""76812f2dcf0dd443297e17aa9523ee9a""",-1,-1,-1,-1,-1,0,1,3.757,hash_or_id
+hard_negative,"trace_id = ""2fb3027f68ee507dc39d50c91d0139bf""",-1,-1,-1,-1,-1,0,1,3.718,fake_entropy
+hard_negative,"fetch_by_hash(""commit_sha"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""895e7f8f1a357b0ca2efcaa320f07398"")",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""qzrT65iVeYhFtWz6bSbegIVJhWps7wKI"" } }",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"trace_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""58a51da3602df32f86a38e0aed52e151"")",-1,-1,-1,-1,-1,0,1,3.421,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""5b527b6e475779c11648fce45235d122""",-1,-1,-1,-1,-1,0,1,3.59,fake_entropy
+hard_negative,"log_request(""77309bf43e09ba5706f387ff963289d4"")",-1,-1,-1,-1,-1,0,1,3.601,fake_entropy
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""bMMOXdQz2TARKrLZZVZu0nexTjvmc8wF""",-1,-1,-1,-1,-1,0,1,4.726,fake_entropy
+hard_negative,"log_request(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""sample"" } }",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"build: checksum: ""e3705c5e78ab26dda49341eb5e8bb741""",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"fetch_by_hash(""css_class"")",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""sample"")",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"trace_id = ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"trace_id = ""eb44f512660fc8a0872314d7c7d13dfc""",-1,-1,-1,-1,-1,0,1,3.796,hash_or_id
+hard_negative,"trace_id = ""5DiiklFqOzWO06eHwnDoDIA/fPNmis0l""",-1,-1,-1,-1,-1,0,1,4.515,fake_entropy
+hard_negative,"build: checksum: ""e1db5d4777677f39a3c5a65768245ba3""",-1,-1,-1,-1,-1,0,1,3.632,hash_or_id
+hard_negative,"fetch_by_hash(""sample"")",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""45709e61d8214e7c7acca21c4689a71a"")",-1,-1,-1,-1,-1,0,1,3.539,fake_entropy
+hard_negative,"build: checksum: ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""mpyAkJIhlel8Q1RVGbq""",-1,-1,-1,-1,-1,0,1,4.143,fake_entropy
+hard_negative,"request_id = ""0a6f40968d78f2d1d15c6cdc0f720166""",-1,-1,-1,-1,-1,0,1,3.504,hash_or_id
+hard_negative,"build: checksum: ""0e691235079d769daf2c2bb5fada37b3""",-1,-1,-1,-1,-1,0,1,3.71,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""activity"" } }",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"get_user_by_id(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"trace_id = ""aVysMelG3cKs5KwN4CBGlB9gybyRcb+y""",-1,-1,-1,-1,-1,0,1,4.312,fake_entropy
+hard_negative,"fetch_by_hash(""072f59456b1c4ea2b76a582430d855eb"")",-1,-1,-1,-1,-1,0,1,3.816,fake_entropy
+hard_negative,"trace_id = ""commit_sha""",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""f462c6989078dd7a7d5e2c0a1fd1648b""",-1,-1,-1,-1,-1,0,1,3.804,fake_entropy
+hard_negative,"fetch_by_hash(""cc3db5e1c379e9fee4e843cfc62ffff7"")",-1,-1,-1,-1,-1,0,1,3.454,fake_entropy
+hard_negative,"get_user_by_id(""color_hex"")",-1,-1,-1,-1,-1,0,1,2.948,stopword
+hard_negative,"get_user_by_id(""be98f372f8fe3baae29fb9d156f7f24c"")",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"log_request(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"build: checksum: ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""ad7ce190073a6dcada14be3c08214b38""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""e904885b43e3d689c5bbd77c74cb1f01""",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""d0eea29854070d4d303f8620e3a80ecc""",-1,-1,-1,-1,-1,0,1,3.57,hash_or_id
+hard_negative,"request_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""ORtWnmRbIkaKGVwQJvpIPNvt"")",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"build: checksum: ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"build: checksum: ""ef4740e7ea81aa56acdceac7926dd3e602acd2da""",-1,-1,-1,-1,-1,0,1,3.594,fake_entropy
+hard_negative,"fetch_by_hash(""iv"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"request_id = ""account""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"get_user_by_id(""do/A688JrAO2Lxp0Bkf3xfl6OcBWJqqZ"")",-1,-1,-1,-1,-1,0,1,4.438,fake_entropy
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""8OiHaMPxJ1Jexx4Z8c0sc9uP"")",-1,-1,-1,-1,-1,0,1,4.054,fake_entropy
+hard_negative,"request_id = ""element_id""",-1,-1,-1,-1,-1,0,1,2.846,stopword
+hard_negative,"build: checksum: ""cache_key""",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""89e02cc1711b037bd52633ecc98111f9"" } }",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"fetch_by_hash(""dba0931a720f2888bf7a2ce68bf5ae97"")",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"trace_id = ""7572b0d78509b58b171a9a659949a37b""",-1,-1,-1,-1,-1,0,1,3.438,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""50005bbd2cb3e17c3d8ef9ee34e6268f"" } }",-1,-1,-1,-1,-1,0,1,3.754,hash_or_id
+hard_negative,"request_id = ""3a7c9321992b6fdb0bb0726eb45a480a""",-1,-1,-1,-1,-1,0,1,3.793,hash_or_id
+hard_negative,"cache_key = ""nlR+IgmsXSQ4iqwXffH89Ic3""",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""cd6788057a10fe85e4cfe629699920f0"")",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"cache_key = ""28amm17soXU24EdePFGOpSHEXx2W9M2Z""",-1,-1,-1,-1,-1,0,1,4.562,fake_entropy
+hard_negative,"fetch_by_hash(""39664a0ba16559ad05b13def20b8cccf"")",-1,-1,-1,-1,-1,0,1,3.796,hash_or_id
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""account""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"trace_id = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"build: checksum: ""b8d72a5656139b3b10675a812915c6cd""",-1,-1,-1,-1,-1,0,1,3.601,fake_entropy
+hard_negative,"fetch_by_hash(""21bfc40d7a7b77608d264cd35d0207c8"")",-1,-1,-1,-1,-1,0,1,3.59,fake_entropy
+hard_negative,"fetch_by_hash(""nonce"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""hash"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"cache_key = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"build: checksum: ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""cddd5763b897888351b0ca8554aeccf0f7818735"" } }",-1,-1,-1,-1,-1,0,1,3.653,fake_entropy
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""object_id""",-1,-1,-1,-1,-1,0,1,3.17,stopword
+hard_negative,"fetch_by_hash(""2344c81dc60679f1635896e94567d69a"")",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"request_id = ""ac3179f0ee8e4be6a9e7468f""",-1,-1,-1,-1,-1,0,1,3.518,fake_entropy
+hard_negative,"request_id = ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"cache_key = ""32fec1860b08b093efcf3eb1b4d4a83e""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"get_user_by_id(""object_id"")",-1,-1,-1,-1,-1,0,1,3.17,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""feb99a8dc009ad56f9806a479859b0c8"" } }",-1,-1,-1,-1,-1,0,1,3.492,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""26c5ad3e6d27354b06e354916956df5d"")",-1,-1,-1,-1,-1,0,1,3.626,hash_or_id
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""99cb7b5fc3dc1fd5007d7d187248c788"")",-1,-1,-1,-1,-1,0,1,3.512,hash_or_id
+hard_negative,"trace_id = ""sha1""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"log_request(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""salt"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""element_id"" } }",-1,-1,-1,-1,-1,0,1,2.846,stopword
+hard_negative,"get_user_by_id(""element_id"")",-1,-1,-1,-1,-1,0,1,2.846,stopword
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"trace_id = ""session_id""",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"build: checksum: ""b04ff4ddfcad40f9b02adfbcdf57aa6c3aea6c43""",-1,-1,-1,-1,-1,0,1,3.518,fake_entropy
+hard_negative,"fetch_by_hash(""d292d77ce8721d294bcfa2bed246148a"")",-1,-1,-1,-1,-1,0,1,3.531,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""k+0gGsNT0n7y8V8tKvNIKZzVhusRA7aXmNG/KcFt"" } }",-1,-1,-1,-1,-1,0,1,4.734,fake_entropy
+hard_negative,"log_request(""1efeda2dd401cf8e4849f067e1b3bb27ffab806f"")",-1,-1,-1,-1,-1,0,1,3.74,fake_entropy
+hard_negative,"build: checksum: ""3f320adc25679222d9e4417fb33445bdae7736d9""",-1,-1,-1,-1,-1,0,1,3.723,fake_entropy
+hard_negative,"trace_id = ""a32676d61adf49b04ee39621ff809172""",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""9aef84576d7f9157c003b29105c446cad24b6be9475"" } }",-1,-1,-1,-1,-1,0,1,3.877,fake_entropy
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"get_user_by_id(""70ebe9ae9832c0e5ade6c575c4f64752"")",-1,-1,-1,-1,-1,0,1,3.715,hash_or_id
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""activity"" } }",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"build: checksum: ""871484e14ef437746e188a059a8b2ecd""",-1,-1,-1,-1,-1,0,1,3.665,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""5737be5d93228877ca7253ea93e02117"" } }",-1,-1,-1,-1,-1,0,1,3.468,fake_entropy
+hard_negative,"trace_id = ""job_id""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"trace_id = ""oRDZAeFNgKi6zQPzCgDhFeq0zFxXxpYO""",-1,-1,-1,-1,-1,0,1,4.453,fake_entropy
+hard_negative,"fetch_by_hash(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"get_user_by_id(""pND8lOKbd1e6BOvZ2JQ59+2xtjwsaGcG"")",-1,-1,-1,-1,-1,0,1,4.812,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""9dbf91719706fbb12ae0f8e7cdcb67ba"" } }",-1,-1,-1,-1,-1,0,1,3.566,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""cd24033994bdf372c3389b09fcd40132"")",-1,-1,-1,-1,-1,0,1,3.397,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin"" } }",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""request_id"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"request_id = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"log_request(""770ab4259a91592e06e05b1ec4236d10a84ab50ee654561d95e9c"")",-1,-1,-1,-1,-1,0,1,3.73,fake_entropy
+hard_negative,"cache_key = ""a59ccdab9f73a5f084d9298dd71459215dcfb9df""",-1,-1,-1,-1,-1,0,1,3.609,fake_entropy
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""5879fb181183294c66a42d41ad55ca82""",-1,-1,-1,-1,-1,0,1,3.656,fake_entropy
+hard_negative,"cache_key = ""8914d49207adf2893f60902d1cfdcd82""",-1,-1,-1,-1,-1,0,1,3.504,hash_or_id
+hard_negative,"fetch_by_hash(""a70b662d0ca64b79592b729162a4fb97"")",-1,-1,-1,-1,-1,0,1,3.476,hash_or_id
+hard_negative,"get_user_by_id(""uuid"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"log_request(""f1cbe376a47403432e9c1f9e9aac6d6b"")",-1,-1,-1,-1,-1,0,1,3.71,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""8451f427965add95587d729e9b80c5f9"" } }",-1,-1,-1,-1,-1,0,1,3.641,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""802cbff13812e7037294789f638fa5b4"" } }",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""hESMB14nUo7p87P80qE0vcdZyqgh+YiU"" } }",-1,-1,-1,-1,-1,0,1,4.562,fake_entropy
+hard_negative,"log_request(""AKSPgCJd/ipeNykPUSHg0KsTnZVZhcb4"")",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"cache_key = ""Wr9u1HdlVzGk4kut0tiNMfKi""",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"trace_id = ""84440e35ac4789b23a4cf6daffec2fafc8a1012b""",-1,-1,-1,-1,-1,0,1,3.763,fake_entropy
+hard_negative,"build: checksum: ""addon""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"trace_id = ""addon""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"log_request(""m/G12b6g9bS7FnrmckGJ0gmwHVEvq/zM"")",-1,-1,-1,-1,-1,0,1,4.601,fake_entropy
+hard_negative,"request_id = ""d080b3f38d9fa61e540bc860ddf55899""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""9b750b8cf0d2da8aa1ad1788375ed6c7fbb3a88f""",-1,-1,-1,-1,-1,0,1,3.675,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""873aa620ecba6d82bd62cd5f22323d565e5aeab0"" } }",-1,-1,-1,-1,-1,0,1,3.537,fake_entropy
+hard_negative,"cache_key = ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""fingerprint"")",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"request_id = ""ca7e4dd6e3ed25a31cf80195""",-1,-1,-1,-1,-1,0,1,3.772,fake_entropy
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""f78c30e74e3ef4fc339641e091fd667a"")",-1,-1,-1,-1,-1,0,1,3.554,fake_entropy
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""cbcc2c904a30c0c7f4dc0b84e324325b"")",-1,-1,-1,-1,-1,0,1,3.44,fake_entropy
+hard_negative,"cache_key = ""0sbxME0XlEWVpBtfJrXVt4t6""",-1,-1,-1,-1,-1,0,1,4.054,fake_entropy
+hard_negative,"build: checksum: ""account""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"request_id = ""544212e0fb2bc5da7ef59d2c1aa0db57""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"request_id = ""8cf75c34b406e2dc9c64b66fdb1db297""",-1,-1,-1,-1,-1,0,1,3.703,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""03569d1c2df9560893ec32832260072d"" } }",-1,-1,-1,-1,-1,0,1,3.504,hash_or_id
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"cache_key = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"build: checksum: ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""f9809b0cd0e4730e0095f2dac4a31600"")",-1,-1,-1,-1,-1,0,1,3.664,hash_or_id
+hard_negative,"request_id = ""KLZKFUbIAXEQV6je/3E/gTyfFkZVY10IsP8S8S2R""",-1,-1,-1,-1,-1,0,1,4.872,fake_entropy
+hard_negative,"request_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""4/l4xKgkb8Ncf7TWBgx17Gq7kNXKk++bUqxl23jnBJgNvLw2l"")",-1,-1,-1,-1,-1,0,1,4.747,fake_entropy
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""IepTaHq9kJgKIK4G6a7M6t6IOwz7kKs1"")",-1,-1,-1,-1,-1,0,1,4.367,fake_entropy
+hard_negative,"cache_key = ""dmmrZy/wG/drw1HqD7f2QjlyUaBUtKK5W7oGwNzN""",-1,-1,-1,-1,-1,0,1,4.703,fake_entropy
+hard_negative,"trace_id = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""014df517-39d1-4453-b7b3-9930c563627c"")",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"log_request(""b3df18681099b26b2eb7f64a7179d3d6"")",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""example"" } }",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"get_user_by_id(""27747dd39cd9852678ac1d436291f7c8"")",-1,-1,-1,-1,-1,0,1,3.543,fake_entropy
+hard_negative,"build: checksum: ""8ea5f1037770308b7a7824dac540af2d""",-1,-1,-1,-1,-1,0,1,3.614,fake_entropy
+hard_negative,"get_user_by_id(""+C7CpoXCdt7lADireFe2NUgx"")",-1,-1,-1,-1,-1,0,1,4.22,fake_entropy
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"trace_id = ""INU4MEx95Ag+BiJJntk2LPiVA9aW40YX""",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"build: checksum: ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""0f91ee395959684956cadfa34328722e"")",-1,-1,-1,-1,-1,0,1,3.73,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""uuid""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""4fdd4be978b88115cf2b161792311b27""",-1,-1,-1,-1,-1,0,1,3.57,fake_entropy
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""AlgRJ3Lf3JePEIG2W4buNGDeNGjiOVJi""",-1,-1,-1,-1,-1,0,1,4.453,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""nonce"" } }",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"cache_key = ""id""",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"cache_key = ""bd1cda00c85685ceb0ef95a8705a01d2""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""014df517-39d1-4453-b7b3-9930c563627c""",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"trace_id = ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"trace_id = ""nmHhLYOxHJh4zEZeemCqiF4Wc/xabIRu""",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"log_request(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""css_class"" } }",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"trace_id = ""1496ccd5ad2d163db9a38a4e""",-1,-1,-1,-1,-1,0,1,3.554,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""eab66718ee288325840d1775af43f7e8"" } }",-1,-1,-1,-1,-1,0,1,3.637,hash_or_id
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""YfGvXR0+xb7cmiBol7ixALxR"" } }",-1,-1,-1,-1,-1,0,1,4.137,fake_entropy
+hard_negative,"log_request(""080aab5b9c21e66f77521b788f3aa29c"")",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"build: checksum: ""color_hex""",-1,-1,-1,-1,-1,0,1,2.948,stopword
+hard_negative,"request_id = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""fd920e954085731111f38d67640588aa""",-1,-1,-1,-1,-1,0,1,3.703,fake_entropy
+hard_negative,"cache_key = ""e965005d61b87b754fcc5d69511884bb79e7491a""",-1,-1,-1,-1,-1,0,1,3.675,fake_entropy
+hard_negative,"trace_id = ""e481ac9062e383248749e71af656d8fe""",-1,-1,-1,-1,-1,0,1,3.765,hash_or_id
+hard_negative,"get_user_by_id(""8707c9a62dd68c9477799fba0d6aa5cc"")",-1,-1,-1,-1,-1,0,1,3.465,hash_or_id
+hard_negative,"trace_id = ""a02da95115a2d78319a59cd5c65ae55c""",-1,-1,-1,-1,-1,0,1,3.366,fake_entropy
+hard_negative,"get_user_by_id(""e535a5b7e8ddd7be08322801327f790b"")",-1,-1,-1,-1,-1,0,1,3.561,hash_or_id
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""asset_name"")",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"get_user_by_id(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""919654ea6b0f86a394be99429af391a7""",-1,-1,-1,-1,-1,0,1,3.526,fake_entropy
+hard_negative,"build: checksum: ""svkGIiND89HSxSEY8kdac9yOxIW8N/C0""",-1,-1,-1,-1,-1,0,1,4.476,fake_entropy
+hard_negative,"request_id = ""md5""",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"cache_key = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"request_id = ""b393e28d2451dc877b3f41957accd9fc""",-1,-1,-1,-1,-1,0,1,3.718,fake_entropy
+hard_negative,"cache_key = ""lb3gGIG+auLUtrtJq0Z6ywXoJdjE""",-1,-1,-1,-1,-1,0,1,4.593,fake_entropy
+hard_negative,"request_id = ""97295c5e88a29b7c637b1590d4""",-1,-1,-1,-1,-1,0,1,3.719,fake_entropy
+hard_negative,"fetch_by_hash(""010254bbed34e954684dc8fdeb09b8bfb09c2703"")",-1,-1,-1,-1,-1,0,1,3.718,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""29f0e05f154e3a7250e25c0853d6d2df"" } }",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"cache_key = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"fetch_by_hash(""css_class"")",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"fetch_by_hash(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""TdbEjIlZHJuyxNU7W4+hrojKcTJ5pHeU"")",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"log_request(""sha256"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""69262a39ce4e260699770b92d3caac4a"")",-1,-1,-1,-1,-1,0,1,3.426,hash_or_id
+hard_negative,"log_request(""asset_name"")",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""NEHfXJJT5fdWmaKUERRs/+Xnr90JG2b4UNcEE+g4""",-1,-1,-1,-1,-1,0,1,4.653,fake_entropy
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"get_user_by_id(""f1ccbfe18687fba8483607f9cbf5d91b"")",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"cache_key = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"request_id = ""3lHtPn81IUuO3W6nokf9CdJ5uobjtrGg""",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"fetch_by_hash(""395b04f25ddb0390cd981ddf321f459a"")",-1,-1,-1,-1,-1,0,1,3.543,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""trace_id"" } }",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"log_request(""G+kTDpuhYShjt825aY7ovzKD"")",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"request_id = ""9gkO0cxXXgkJsNhQfSNhcWNgltRg3Lg8""",-1,-1,-1,-1,-1,0,1,4.239,fake_entropy
+hard_negative,"build: checksum: ""1a3590b8c92545af39a0d49a834c68e1""",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"get_user_by_id(""0ba9f36e5212fb6ff5e8192966f07532"")",-1,-1,-1,-1,-1,0,1,3.528,fake_entropy
+hard_negative,"fetch_by_hash(""IGaX3YL46dbsALeu2AjdyYbSudn5k57Cbh0taVQh"")",-1,-1,-1,-1,-1,0,1,4.734,fake_entropy
+hard_negative,"trace_id = ""899dfc7595a366074d3fb1831db4e08e""",-1,-1,-1,-1,-1,0,1,3.843,fake_entropy
+hard_negative,"build: checksum: ""uuid""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""cache_key"" } }",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"get_user_by_id(""9f3f5cfa7a99562b62d5db5e11410e87"")",-1,-1,-1,-1,-1,0,1,3.867,hash_or_id
+hard_negative,"get_user_by_id(""salt"")",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"cache_key = ""234855cb3a8d8a984edb87d833697f9b""",-1,-1,-1,-1,-1,0,1,3.57,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""3juW1u2uCLykyTReWDlRw20sqgPQAaoELYBhq41o3zt"" } }",-1,-1,-1,-1,-1,0,1,4.897,fake_entropy
+hard_negative,"fetch_by_hash(""282d09710dcf40707fc37cc3dc6b75c65108a"")",-1,-1,-1,-1,-1,0,1,3.656,fake_entropy
+hard_negative,"trace_id = ""9654107dbfccac0d93ee02ad081e2013""",-1,-1,-1,-1,-1,0,1,3.793,hash_or_id
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""LJeUdXjs7lwWCz0rPs4owqMJWxTdwdeO""",-1,-1,-1,-1,-1,0,1,4.453,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin"" } }",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"log_request(""0bc05df9ea12a5feb708dbde5352e45f"")",-1,-1,-1,-1,-1,0,1,3.668,fake_entropy
+hard_negative,"cache_key = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"build: checksum: ""10f652fc4fe2d7281d186e46e9dcd932""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"cache_key = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"build: checksum: ""4ff812256428918d09932a614657f86bceb02d312c5d0f72d25""",-1,-1,-1,-1,-1,0,1,3.824,fake_entropy
+hard_negative,"build: checksum: ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""0eff45362010c5d33e8452f9fb173c02"" } }",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"build: checksum: ""3063bbee77d82c08ff69d084bf459cb7""",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""sample"" } }",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"build: checksum: ""50e163d23afc9cc90deefca14d1a751d""",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""tM3oUjPKa4la+dsYFL0ApDJjACjAgkt5""",-1,-1,-1,-1,-1,0,1,4.578,fake_entropy
+hard_negative,"get_user_by_id(""8e047cf6400e2df365c828e0"")",-1,-1,-1,-1,-1,0,1,3.439,fake_entropy
+hard_negative,"log_request(""894b053a2d5afee45f92c298ffbb1e08"")",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"trace_id = ""admin""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"fetch_by_hash(""placeholder"")",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"log_request(""trace_id"")",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""e30c3676059bce49f51de81f31bd437c"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""c4a27931f44ec9efa03e8bbc8eef8ab905010643"" } }",-1,-1,-1,-1,-1,0,1,3.75,fake_entropy
+hard_negative,"build: checksum: ""a94e433f7e81c43f0ae1c6a615f4f9ef3b0ad538""",-1,-1,-1,-1,-1,0,1,3.723,fake_entropy
+hard_negative,"cache_key = ""css_class""",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"fetch_by_hash(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"cache_key = ""nonce""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"cache_key = ""CY7Bdm+jSlHo7ivFehUCGoox""",-1,-1,-1,-1,-1,0,1,4.22,fake_entropy
+hard_negative,"cache_key = ""salt""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""nonce"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""8d0b70b60ecd865d459397d4c3db9c27"")",-1,-1,-1,-1,-1,0,1,3.582,fake_entropy
+hard_negative,"get_user_by_id(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""1648826494652297cdb75d96"")",-1,-1,-1,-1,-1,0,1,3.324,fake_entropy
+hard_negative,"get_user_by_id(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""a2ae2129eacfab19138e718c5bed4277""",-1,-1,-1,-1,-1,0,1,3.601,fake_entropy
+hard_negative,"log_request(""md5"")",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"trace_id = ""b6e4ba2fce674fe6b99dbc9055114335""",-1,-1,-1,-1,-1,0,1,3.757,hash_or_id
+hard_negative,"get_user_by_id(""f794633c55a674e9894310bef6d7a23c"")",-1,-1,-1,-1,-1,0,1,3.843,hash_or_id
+hard_negative,"fetch_by_hash(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REPLACE_ME"" } }",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""md5"" } }",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"request_id = ""cb69877b086c7b72e3c5f4bf761fca2a""",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""55e858cdc01a6609b651e411861038bd""",-1,-1,-1,-1,-1,0,1,3.489,hash_or_id
+hard_negative,"log_request(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""014df517-39d1-4453-b7b3-9930c563627c"" } }",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"build: checksum: ""addon""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"trace_id = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""/KO4j9nOEo3AIBgm56nHnVpSChnDkrPQj8Q67cbzbv3pLa1immjCJFjd0AM+ZkJr""",-1,-1,-1,-1,-1,0,1,5.332,fake_entropy
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""Sne0xKT/3/lJJrljVFWSfw7/0u3OQbllVg//5Sm/""",-1,-1,-1,-1,-1,0,1,4.415,fake_entropy
+hard_negative,"log_request(""build_number"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"build: checksum: ""eS3XzLUgylQUUVVNuawRhZcriHvpUPA+""",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"build: checksum: ""69d83c210b5020fd6e52cae308b272b2""",-1,-1,-1,-1,-1,0,1,3.679,fake_entropy
+hard_negative,"build: checksum: ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""haY1VwAAQeoVllgf5w2eEjzp7ZtrGqWM"" } }",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"trace_id = ""27dbb4bb32689f6e514df1eb167cb998""",-1,-1,-1,-1,-1,0,1,3.632,hash_or_id
+hard_negative,"log_request(""7682cbd34bbfd46414a00adf2c58ba38"")",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"cache_key = ""0eb3617bd6fa657e6d2729cf28013a28""",-1,-1,-1,-1,-1,0,1,3.789,hash_or_id
+hard_negative,"log_request(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"cache_key = ""sha1""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"log_request(""correlation_id"")",-1,-1,-1,-1,-1,0,1,3.379,stopword
+hard_negative,"trace_id = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"request_id = ""gUQ3ogKS7j5UfGDtKUOHh1edHEayi9Y+""",-1,-1,-1,-1,-1,0,1,4.664,fake_entropy
+hard_negative,"log_request(""yWQgrFuc7tzUS7XvNaeSrHTUbQsi9pWzLm3UAkgd"")",-1,-1,-1,-1,-1,0,1,4.853,fake_entropy
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"request_id = ""correlation_id""",-1,-1,-1,-1,-1,0,1,3.379,stopword
+hard_negative,"request_id = ""hash""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"trace_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""e23d1269f7b88f82d1a7604db6b53b8b"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""ff45444cb074cfb4792afe540d916a96""",-1,-1,-1,-1,-1,0,1,3.55,hash_or_id
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""JB0V1ST5hG/4IrjLsyfY9zk8hNMxNcpA""",-1,-1,-1,-1,-1,0,1,4.875,fake_entropy
+hard_negative,"log_request(""active"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""j/puIMUNqZqA5NJzPMGEpEdwNYptYVwj"" } }",-1,-1,-1,-1,-1,0,1,4.328,fake_entropy
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""6d7127a2566c6fe810bf471917a4ccc2""",-1,-1,-1,-1,-1,0,1,3.664,hash_or_id
+hard_negative,"get_user_by_id(""6QAOApbg5sakxQQ/KTZJdkFRVtVbFhAJUHtf15j5"")",-1,-1,-1,-1,-1,0,1,4.665,fake_entropy
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""9cf1410ee020ceb7d95f53b35f5a07c8"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"log_request(""4ciAXFxqKKXyLynwVlULhFHF"")",-1,-1,-1,-1,-1,0,1,4.054,fake_entropy
+hard_negative,"build: checksum: ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""d218faa37f60ef074748b69e65b5dd23""",-1,-1,-1,-1,-1,0,1,3.843,hash_or_id
+hard_negative,"fetch_by_hash(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"fetch_by_hash(""guid"")",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""jJYybVFsP/lqSS6d7B3Zo20FsWZXF2k9"")",-1,-1,-1,-1,-1,0,1,4.601,fake_entropy
+hard_negative,"trace_id = ""checksum""",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"fetch_by_hash(""vU2oguekFvztFeO5B4dtP5tuOANjM9HAi81/Iy0g"")",-1,-1,-1,-1,-1,0,1,4.803,fake_entropy
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""c18fedd4136724680f260e"")",-1,-1,-1,-1,-1,0,1,3.516,fake_entropy
+hard_negative,"cache_key = ""c6b7540d7f254661bd2219c453afd291""",-1,-1,-1,-1,-1,0,1,3.695,fake_entropy
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"cache_key = ""md5""",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"trace_id = ""dbae6ff998336fc39456b7e7411dcd82""",-1,-1,-1,-1,-1,0,1,3.82,hash_or_id
+hard_negative,"trace_id = ""636a9d5ef479c3f3cf4aabd0438ee539""",-1,-1,-1,-1,-1,0,1,3.644,hash_or_id
+hard_negative,"cache_key = ""rEYSQiWRq/GQfe9Owl2MC4JFf9kd12TE""",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""7d66505bd09ca735f094559ce7a185f6""",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"log_request(""adapter"")",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""e91f3b380bce8961c7afe31fffe2bae2"")",-1,-1,-1,-1,-1,0,1,3.516,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""object_id""",-1,-1,-1,-1,-1,0,1,3.17,stopword
+hard_negative,"get_user_by_id(""73eaa2f5acdc13a2fac121af45560880"")",-1,-1,-1,-1,-1,0,1,3.585,hash_or_id
+hard_negative,"get_user_by_id(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"fetch_by_hash(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"trace_id = ""JYHLsXSq6TzwCMVsXPpMIzfh""",-1,-1,-1,-1,-1,0,1,4.252,fake_entropy
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""fa3824a16fe16d4e623025e63d515637"")",-1,-1,-1,-1,-1,0,1,3.543,hash_or_id
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""1352e604bf0fc97d09cf0660964bd0c291f3c959""",-1,-1,-1,-1,-1,0,1,3.596,fake_entropy
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"build: checksum: ""sha1""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""1be37bed6ae5c07c0c789b56ac94ec8c"" } }",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"fetch_by_hash(""73d03215085bf2f60f247374564bbdb9"")",-1,-1,-1,-1,-1,0,1,3.585,hash_or_id
+hard_negative,"log_request(""cache_key"")",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""abcdefghijklmnopqrstuvwxyz""",-1,-1,-1,-1,-1,0,1,4.7,stopword
+hard_negative,"cache_key = ""376d110fc3c6f56df31b38273a73ace3""",-1,-1,-1,-1,-1,0,1,3.518,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""5fd7ba2a549ba17e3b5b427936d0045c"" } }",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"fetch_by_hash(""e90279d4e98a9df92eef59df76caa33d"")",-1,-1,-1,-1,-1,0,1,3.531,hash_or_id
+hard_negative,"request_id = ""hash""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"request_id = ""9228b878971412678d1446fffb391733""",-1,-1,-1,-1,-1,0,1,3.382,hash_or_id
+hard_negative,"request_id = ""k8AliWrrJ4cydrohyrdPvUXAkY0gEhza""",-1,-1,-1,-1,-1,0,1,4.438,fake_entropy
+hard_negative,"build: checksum: ""SekyV96Fah6a0BiNoX7A/""",-1,-1,-1,-1,-1,0,1,4.202,fake_entropy
+hard_negative,"request_id = ""456b730f1b743e80d61a61eca6e0139d""",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"get_user_by_id(""23ac038fd5bc288d79c2a02f28b42724"")",-1,-1,-1,-1,-1,0,1,3.487,fake_entropy
+hard_negative,"fetch_by_hash(""xgv9gcAm0lNHVAeCFgw+ANX7EBSnSk3e"")",-1,-1,-1,-1,-1,0,1,4.515,fake_entropy
+hard_negative,"request_id = ""correlation_id""",-1,-1,-1,-1,-1,0,1,3.379,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""37a2059e74384edf91d73a5a6e13172b""",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""3b8955d0244b856143104f69f985500efe523b6387e47cb81c969a38ac1435d"")",-1,-1,-1,-1,-1,0,1,3.881,fake_entropy
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""qHXvhYFrT3sA+FF8izeYf/76""",-1,-1,-1,-1,-1,0,1,4.304,fake_entropy
+hard_negative,"fetch_by_hash(""yZf/9K/E8uT2lZK8QNKlxKUq"")",-1,-1,-1,-1,-1,0,1,3.918,fake_entropy
+hard_negative,"fetch_by_hash(""bb125ea223a9d310f92eafc7a9c296f7"")",-1,-1,-1,-1,-1,0,1,3.614,hash_or_id
+hard_negative,"fetch_by_hash(""Sl9avBwTn1z2FUNrBnsGeGGHnY35hsBChJzXgTOy"")",-1,-1,-1,-1,-1,0,1,4.765,fake_entropy
+hard_negative,"log_request(""3857a2234accae5e104898a8d2b83cbf"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"trace_id = ""cda43827aaa347d1ae248044fcb2af07""",-1,-1,-1,-1,-1,0,1,3.48,hash_or_id
+hard_negative,"get_user_by_id(""cf81d5044529e06afc16a03c68dea94a"")",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""build_number"" } }",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""/KsnmNoCnIb/5jtsoghEHjzA1CH+W/lQ""",-1,-1,-1,-1,-1,0,1,4.476,fake_entropy
+hard_negative,"log_request(""e23b13e27e570f6bad013d617d3812d4"")",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"trace_id = ""request_id""",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"log_request(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""DpGceKMMEDe3MpmMvfKaxFutm1Zgcyg4nyRz1i74""",-1,-1,-1,-1,-1,0,1,4.622,fake_entropy
+hard_negative,"log_request(""1b16049c9a40ea42fd56a3641089b4fa"")",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"cache_key = ""0c5ebbffb2d5d2e52872b8e8e692d10e""",-1,-1,-1,-1,-1,0,1,3.454,hash_or_id
+hard_negative,"build: checksum: ""0ebeb9dac1fc6960706c819e5552d7c1""",-1,-1,-1,-1,-1,0,1,3.671,hash_or_id
+hard_negative,"request_id = ""5d252a96f994b3c0db1329cb""",-1,-1,-1,-1,-1,0,1,3.522,fake_entropy
+hard_negative,"get_user_by_id(""hash"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""uuid"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""ba5e96ed60f06b63f1b8dc53e84f108c"" } }",-1,-1,-1,-1,-1,0,1,3.695,fake_entropy
+hard_negative,"trace_id = ""adapter""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""c38a1e957c81c4e5131ed10ba3f26cfa""",-1,-1,-1,-1,-1,0,1,3.754,fake_entropy
+hard_negative,"request_id = ""md5""",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"trace_id = ""3359367de3cde79bd1c3c1cb1e034f99""",-1,-1,-1,-1,-1,0,1,3.445,hash_or_id
+hard_negative,"log_request(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"cache_key = ""ZZPIPLU9xdpuIBCsWU9oUYvdXXSeeIDB""",-1,-1,-1,-1,-1,0,1,4.265,fake_entropy
+hard_negative,"cache_key = ""slug""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""adapter"")",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""58b7a59b89ab478345fe07febbc49f48"")",-1,-1,-1,-1,-1,0,1,3.418,fake_entropy
+hard_negative,"build: checksum: ""1Ea7mXo0TyPTgZlJNYZuYbN6w9wkXgDk""",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"cache_key = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""a083ff3d1729b43d53ad1c177131ed7d"" } }",-1,-1,-1,-1,-1,0,1,3.537,hash_or_id
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""f246338ea522dae7688f666d50ca0071"" } }",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"cache_key = ""r9+cm5x6SZwbmE2TPP7BFeuE""",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"log_request(""c13e623990871742aa9772896d9209b7"")",-1,-1,-1,-1,-1,0,1,3.528,hash_or_id
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""BSVO5Xy7krhqGixRjr4Q6V3x9Ke+lNJx""",-1,-1,-1,-1,-1,0,1,4.726,fake_entropy
+hard_negative,"get_user_by_id(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""017c4bc6fa6f34ab7df14ef197662d80"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""OXSXadIIjfb60eEobhs2KJOs"" } }",-1,-1,-1,-1,-1,0,1,4.168,fake_entropy
+hard_negative,"log_request(""ae8c9ff029b67736443acf40a8580fbf"")",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""6ee739dad4db532ef27bdcef1ab57157"" } }",-1,-1,-1,-1,-1,0,1,3.64,fake_entropy
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""480b87cb7afcfc8d650bbfdcc68a909e"")",-1,-1,-1,-1,-1,0,1,3.528,hash_or_id
+hard_negative,"trace_id = ""b38e1b2a1852c9df4da834b152107488""",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"request_id = ""iOMvF9o1N1/AmDDmcKBDnKLOVQzDg8Pxg6WhIF3t""",-1,-1,-1,-1,-1,0,1,4.822,fake_entropy
+hard_negative,"request_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""css_class"")",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"build: checksum: ""sha1""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""7d50a934b354a09f0dd91e28b3b519dd""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"request_id = ""e13c95c60a081cb4200501c5e189a6e5""",-1,-1,-1,-1,-1,0,1,3.489,hash_or_id
+hard_negative,"get_user_by_id(""iv"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"cache_key = ""9aa49d0d268ce7f4bb95a946b051aec4""",-1,-1,-1,-1,-1,0,1,3.726,hash_or_id
+hard_negative,"request_id = ""f25dd08f0e886446e396fa8cb88733e1""",-1,-1,-1,-1,-1,0,1,3.733,hash_or_id
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""job_id""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"trace_id = ""0779cbb2b591ede36dda930f62355fb6""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"trace_id = ""9e62d91e5e7107d0a580ba9297986287""",-1,-1,-1,-1,-1,0,1,3.48,hash_or_id
+hard_negative,"request_id = ""8a8c3fd177c1003357f6a046ae677f4c""",-1,-1,-1,-1,-1,0,1,3.558,hash_or_id
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""795a1fcc6ceeef4ae267be93""",-1,-1,-1,-1,-1,0,1,3.486,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""0LTYkYbgjzCsoDVPy3GC4oqO""",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"trace_id = ""U+R4FZeerUSIDY2udKgmXNU0YHzqo94j""",-1,-1,-1,-1,-1,0,1,4.664,fake_entropy
+hard_negative,"cache_key = ""3edc883e3646ac01253db401cde4c70d""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"cache_key = ""f5e8d454b0271d848b2f9e5839b3d2d2d6be1fa4c6""",-1,-1,-1,-1,-1,0,1,3.824,fake_entropy
+hard_negative,"get_user_by_id(""J4BBFauOvkkonD9AedEaLK9zUosPnQ5HMCKv0tbL"")",-1,-1,-1,-1,-1,0,1,4.872,fake_entropy
+hard_negative,"fetch_by_hash(""04c4c89ab1904c589ec4adcd9291c120"")",-1,-1,-1,-1,-1,0,1,3.355,hash_or_id
+hard_negative,"log_request(""ZMfdYhosTYdJM90/T1J53YglsS91llVm"")",-1,-1,-1,-1,-1,0,1,4.265,fake_entropy
+hard_negative,"cache_key = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"log_request(""F38QTTPU+DtlXx0lMN72RX2kW+q5nN6l"")",-1,-1,-1,-1,-1,0,1,4.539,fake_entropy
+hard_negative,"cache_key = ""f338c61b24e732049f15ab7f490882a9""",-1,-1,-1,-1,-1,0,1,3.796,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"request_id = ""k3Nwi93oYVcRR/CzVzVkymhrWTTfvezq""",-1,-1,-1,-1,-1,0,1,4.453,fake_entropy
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"build: checksum: ""Jhq1XZGAXACuFaTYDEU7EJ+Af/GZsag4""",-1,-1,-1,-1,-1,0,1,4.476,fake_entropy
+hard_negative,"get_user_by_id(""fingerprint"")",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""action"" } }",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"build: checksum: ""commit_sha""",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"fetch_by_hash(""40d19e6533686bf586b6af56cb5f6a58"")",-1,-1,-1,-1,-1,0,1,3.452,hash_or_id
+hard_negative,"fetch_by_hash(""slug"")",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""sample"")",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"fetch_by_hash(""about"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"cache_key = ""d652ef7bc0d706f7283fc09a8ad599f6""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""checksum"" } }",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""72783d7d54e79abab2d0ea7d2a12201391b9c5f5""",-1,-1,-1,-1,-1,0,1,3.716,fake_entropy
+hard_negative,"cache_key = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""commit_sha""",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""f13ec1814b2b0a560a4025ef3a4f23c220e58abd74bd331989757139"" } }",-1,-1,-1,-1,-1,0,1,3.906,fake_entropy
+hard_negative,"get_user_by_id(""d494c20aa839ce5347f70cb22337b0f7"")",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"fetch_by_hash(""checksum"")",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"trace_id = ""jzxkJSisSYDukd1+5Lb67AxMJi97x1O3Bu4sjLFB""",-1,-1,-1,-1,-1,0,1,4.653,fake_entropy
+hard_negative,"trace_id = ""adapter""",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"request_id = ""checksum""",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"request_id = ""1fca28a1763149b8dc7d0f1d2ec46076""",-1,-1,-1,-1,-1,0,1,3.781,hash_or_id
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REPLACE_ME"" } }",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""2VZIhgV36ptdwxTk0SNxOrZHQXgGueJcFJfQvU31Aq""",-1,-1,-1,-1,-1,0,1,5.059,fake_entropy
+hard_negative,"log_request(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""e74ea1030f969670cc65d5c636443fd7""",-1,-1,-1,-1,-1,0,1,3.582,fake_entropy
+hard_negative,"fetch_by_hash(""86d70bdc776d3a0b29cb5a62512e6450"")",-1,-1,-1,-1,-1,0,1,3.733,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""id"" } }",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"fetch_by_hash(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""56ee2aa0cf953c7feea3d7d81f75f8d3"")",-1,-1,-1,-1,-1,0,1,3.632,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""deployment_id"" } }",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"log_request(""abcdefghijklmnopqrstuvwxyz"")",-1,-1,-1,-1,-1,0,1,4.7,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fa08ad5372d8958eaf91f1bc1ee423ab"" } }",-1,-1,-1,-1,-1,0,1,3.781,hash_or_id
+hard_negative,"build: checksum: ""b625e8f2c9d48dd3165acaebf042eee9""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"trace_id = ""ef76bac6a5f2527b5ffa80aac57ba04e""",-1,-1,-1,-1,-1,0,1,3.406,hash_or_id
+hard_negative,"log_request(""6f6f41f11227bfec1766418cd239d6c1"")",-1,-1,-1,-1,-1,0,1,3.418,hash_or_id
+hard_negative,"request_id = ""etag""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""350d958226bcb7c9e668610fe4ec0869""",-1,-1,-1,-1,-1,0,1,3.707,hash_or_id
+hard_negative,"request_id = ""SSDTCHXYDIuQZ3LwulT7RgLENK66079aTptbLRPE""",-1,-1,-1,-1,-1,0,1,4.734,fake_entropy
+hard_negative,"cache_key = ""a950740c9faf5331cc00ec53fb5d536e""",-1,-1,-1,-1,-1,0,1,3.551,hash_or_id
+hard_negative,"cache_key = ""trace_id""",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""c382522d23f3456c314ed6e9b8398392""",-1,-1,-1,-1,-1,0,1,3.48,hash_or_id
+hard_negative,"request_id = ""H0uKT9veowD+5opHmj2Z/REV""",-1,-1,-1,-1,-1,0,1,4.418,fake_entropy
+hard_negative,"request_id = ""cache_key""",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"cache_key = ""d742e77f50815c1683a8876e1327ac90""",-1,-1,-1,-1,-1,0,1,3.739,hash_or_id
+hard_negative,"log_request(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"trace_id = ""RJOr3lcFZGYHadGgVCULCqjN/WQezXCW""",-1,-1,-1,-1,-1,0,1,4.726,fake_entropy
+hard_negative,"build: checksum: ""1beb16fd6c6050250a4c97898d94af2e""",-1,-1,-1,-1,-1,0,1,3.867,fake_entropy
+hard_negative,"fetch_by_hash(""WfbVNyfZtM+cZA9szckNvjRF69UoZxl8Od2UjTKD"")",-1,-1,-1,-1,-1,0,1,4.903,fake_entropy
+hard_negative,"cache_key = ""d4e9cf78eca01991b6654e9503112583""",-1,-1,-1,-1,-1,0,1,3.828,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REPLACE_ME"" } }",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"get_user_by_id(""hash"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"get_user_by_id(""activity"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"fetch_by_hash(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""af2a7e11fce81ccd06f7b5e3bcecda125467355b"")",-1,-1,-1,-1,-1,0,1,3.756,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"cache_key = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""aea2804379391aaf851d6f2cfde384fe"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"log_request(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""md5"")",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"trace_id = ""a88b7c8c2dec979194df426216712bf0""",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""656bbd767cdefebef55338b812a0b2d3"")",-1,-1,-1,-1,-1,0,1,3.644,hash_or_id
+hard_negative,"fetch_by_hash(""ee0d1801800790cf96392f9635f50ccd"")",-1,-1,-1,-1,-1,0,1,3.531,fake_entropy
+hard_negative,"request_id = ""a07f2e62e89045e41c0257052de0b93232106760""",-1,-1,-1,-1,-1,0,1,3.686,fake_entropy
+hard_negative,"trace_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"build: checksum: ""GJE45UGZhCrNTsyVbYlScSS4mACeWNID5DRzcgKXhT1xqYYiptYUJq0auTG1JR""",-1,-1,-1,-1,-1,0,1,5.164,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""build_id""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"fetch_by_hash(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""sample"")",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"request_id = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""css_class"" } }",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"build: checksum: ""jAlvGUv3Sks2KnVKg4AmMYq+5kp0iIoTNyGihKyK""",-1,-1,-1,-1,-1,0,1,4.822,fake_entropy
+hard_negative,"get_user_by_id(""about"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""y/GXLw0O6gPD/KHOI5NK/tU7""",-1,-1,-1,-1,-1,0,1,4.22,fake_entropy
+hard_negative,"fetch_by_hash(""deployment_id"")",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"build: checksum: ""6ccaa2fbc6495fc726e45ce8f7ee798001f9405bfd799dc0468fb""",-1,-1,-1,-1,-1,0,1,3.787,fake_entropy
+hard_negative,"build: checksum: ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"request_id = ""dummy""",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""4d0a4af130ad98595404b1182002aeeb"")",-1,-1,-1,-1,-1,0,1,3.551,hash_or_id
+hard_negative,"log_request(""a369612b1ac775e8b4718079ff6a9b5a"")",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""9d745dcd9d509314fdea050fbd91b2b1"" } }",-1,-1,-1,-1,-1,0,1,3.546,hash_or_id
+hard_negative,"get_user_by_id(""df0c257b8376ef461a734eea1985440a"")",-1,-1,-1,-1,-1,0,1,3.867,fake_entropy
+hard_negative,"build: checksum: ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"log_request(""01f96fc0bd77d03a077cc1f4"")",-1,-1,-1,-1,-1,0,1,3.355,fake_entropy
+hard_negative,"build: checksum: ""about""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"trace_id = ""32c253e73d2d46aa6c594882ab5cb419""",-1,-1,-1,-1,-1,0,1,3.695,fake_entropy
+hard_negative,"request_id = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""admin""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""sha1"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""D/iB2ImAwv8Cr9tnCxQRmpIlfhN1Ojoj""",-1,-1,-1,-1,-1,0,1,4.75,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""b404d923a74f80b88912a6dff50f8b87"" } }",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""request_id"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"request_id = ""98fd10424538756f4857cb02fc2d4b41""",-1,-1,-1,-1,-1,0,1,3.668,fake_entropy
+hard_negative,"build: checksum: ""qNCAWzKXsAvwZF0PKugyK/nO""",-1,-1,-1,-1,-1,0,1,4.304,fake_entropy
+hard_negative,"trace_id = ""d0b19a757e61c9583b0638a1e9d0899b""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"trace_id = ""EZd3sH92KMWWdkFyisdzVhsGq5oe0+ly""",-1,-1,-1,-1,-1,0,1,4.578,fake_entropy
+hard_negative,"build: checksum: ""9fc4ae74296b58e77d881cf682622ac13ad123c6""",-1,-1,-1,-1,-1,0,1,3.775,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""slug"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"build: checksum: ""77d968c785bf5d28b9654fdbe3c0b625""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"trace_id = ""8c32e62d5e2ca608b8d2d648e9cd45e7888a8fb6""",-1,-1,-1,-1,-1,0,1,3.603,fake_entropy
+hard_negative,"request_id = ""commit_sha""",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"cache_key = ""bd5431f567c1603b4effacb70037f829""",-1,-1,-1,-1,-1,0,1,3.843,hash_or_id
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""sample"")",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""3c0030cfb548f814d38c8266d6a4d704"" } }",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"log_request(""73c0665b478f68b532fd844e38c02dfe"")",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"build: checksum: ""2297b10e6dd1322184a10f2ff1a18017""",-1,-1,-1,-1,-1,0,1,3.476,fake_entropy
+hard_negative,"get_user_by_id(""addon"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"get_user_by_id(""d55bfdb983086c815e57588ee3ea243d"")",-1,-1,-1,-1,-1,0,1,3.665,hash_or_id
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""c5b4b3181c09ad11d7de3f3f57ce98cc"" } }",-1,-1,-1,-1,-1,0,1,3.653,fake_entropy
+hard_negative,"build: checksum: ""7L69EunXHnuGSv8HU0PZJ4XhsFkiFwVi""",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"build: checksum: ""a5908efea858dc43a91ef4d9ca0e76f9""",-1,-1,-1,-1,-1,0,1,3.64,hash_or_id
+hard_negative,"get_user_by_id(""version_hash"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"fetch_by_hash(""d56e08eb1e2c0a709498e5b3"")",-1,-1,-1,-1,-1,0,1,3.72,fake_entropy
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""625cbcb0ccf596de81fb45ce2f58a20a"")",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"get_user_by_id(""uuid"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""08fb3bad0aee0216bcdee8556130bb69ddece4ac"" } }",-1,-1,-1,-1,-1,0,1,3.687,fake_entropy
+hard_negative,"request_id = ""b346543d9da9aa3a526435bb444f4b90e93f39""",-1,-1,-1,-1,-1,0,1,3.313,fake_entropy
+hard_negative,"trace_id = ""action""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"cache_key = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""salt""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"cache_key = ""example""",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"request_id = ""4a6996c4f97a6d242f""",-1,-1,-1,-1,-1,0,1,3.044,fake_entropy
+hard_negative,"get_user_by_id(""placeholder"")",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"build: checksum: ""salt""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""4ffe0d7161b1172124e7d762bee52af0797eb5f1"")",-1,-1,-1,-1,-1,0,1,3.487,fake_entropy
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"get_user_by_id(""6ab86b6ddf10137f9d5f2fbff2bd216"")",-1,-1,-1,-1,-1,0,1,3.373,fake_entropy
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""eed69990bb97c87014a4cf65431f1f30""",-1,-1,-1,-1,-1,0,1,3.781,fake_entropy
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"fetch_by_hash(""build_number"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"cache_key = ""335dbe1e8fd874bbb080829ef833db65""",-1,-1,-1,-1,-1,0,1,3.54,hash_or_id
+hard_negative,"request_id = ""5b89cc7cba48ecf6cb40497725b095df""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""build_id"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""slug""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""mock"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""b5623a38d256d680c337a22d2505843d""",-1,-1,-1,-1,-1,0,1,3.352,fake_entropy
+hard_negative,"request_id = ""9b8695e1f30b90ad531b4dba8cafb140""",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"build: checksum: ""31513994049c116ebfd3d79ba5c5bbd5""",-1,-1,-1,-1,-1,0,1,3.578,hash_or_id
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""action"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"build: checksum: ""2e1562a8a9b3cae69998cf1405f4d349""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""ei5d+OYb+7ceZ6eIKokn59mu9IUk4UQZHI""",-1,-1,-1,-1,-1,0,1,4.455,fake_entropy
+hard_negative,"trace_id = ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"request_id = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"get_user_by_id(""c35dfc595f3798ef21e3dcb77e3c3eea"")",-1,-1,-1,-1,-1,0,1,3.454,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""12904a1929c42d31cb95ce2de87a0bd5"")",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""qFFrKBUCutp5i0c7V9eeP4mdeNd""",-1,-1,-1,-1,-1,0,1,4.431,fake_entropy
+hard_negative,"build: checksum: ""e6e558ec64a2042e88513d0542c3e9ff""",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""223712482bba0339f0d359a80c84a6da""",-1,-1,-1,-1,-1,0,1,3.703,fake_entropy
+hard_negative,"log_request(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""3rcbFFF15+7kK7tIFUdaE+v2wNXCgKWolpa3WGf5"")",-1,-1,-1,-1,-1,0,1,4.772,fake_entropy
+hard_negative,"fetch_by_hash(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"cache_key = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"fetch_by_hash(""1ae070d33093318c0d93536853b5d431"")",-1,-1,-1,-1,-1,0,1,3.429,fake_entropy
+hard_negative,"fetch_by_hash(""REDACTED"")",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"log_request(""27740351446888bd59fe3fa27f081ccf"")",-1,-1,-1,-1,-1,0,1,3.828,hash_or_id
+hard_negative,"request_id = ""060aadb4c237d4d57be7388bdb916b3f""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"request_id = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"fetch_by_hash(""request_id"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"fetch_by_hash(""442cc033c73c500f1538cbadb816477b"")",-1,-1,-1,-1,-1,0,1,3.605,fake_entropy
+hard_negative,"fetch_by_hash(""3947d2f43cd053ca6b5bf2b48113604e"")",-1,-1,-1,-1,-1,0,1,3.851,hash_or_id
+hard_negative,"get_user_by_id(""xV6yxhigw/3zgVFapUHf/2oqdSc+zOF/UTv91KzxjA/vBQ"")",-1,-1,-1,-1,-1,0,1,4.926,fake_entropy
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""8655c0d5c35478a769e25dfc227a7eb2fe620ff1""",-1,-1,-1,-1,-1,0,1,3.785,fake_entropy
+hard_negative,"request_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"request_id = ""J1taTN0skmqn6Hp/2m/ChT43L9szMDKWOYLqBxzp""",-1,-1,-1,-1,-1,0,1,4.922,fake_entropy
+hard_negative,"trace_id = ""1ef7483cf237500b3137d3ca17806123""",-1,-1,-1,-1,-1,0,1,3.617,hash_or_id
+hard_negative,"get_user_by_id(""37WzgSIq61n5xonREg60pnPSkj7fCWF/2tNPWG+p"")",-1,-1,-1,-1,-1,0,1,4.784,fake_entropy
+hard_negative,"log_request(""build_number"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"request_id = ""zyzdKyxIIklSLp2l4zZTbomSCwIwmOvoz""",-1,-1,-1,-1,-1,0,1,4.294,fake_entropy
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"cache_key = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"trace_id = ""b99f548408d35d1b9889601c42c601fdb247ac54""",-1,-1,-1,-1,-1,0,1,3.768,fake_entropy
+hard_negative,"log_request(""TZMAShPLvWsYFFEgg3ikXkjvSZOjHO/pXwV9WlaB"")",-1,-1,-1,-1,-1,0,1,4.822,fake_entropy
+hard_negative,"trace_id = ""c13c22d27b44b36fb942e08c7641747f""",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"get_user_by_id(""d467088a5ec73c3109ae5a4ee9c9b7b3"")",-1,-1,-1,-1,-1,0,1,3.695,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""916a27e3e4e0b0e3cc6829948b95fbad"" } }",-1,-1,-1,-1,-1,0,1,3.851,hash_or_id
+hard_negative,"trace_id = ""23b0ed1ac14230c9d69149a81be0a442""",-1,-1,-1,-1,-1,0,1,3.593,fake_entropy
+hard_negative,"log_request(""wNYk3+MmvkH2rvOjF2bD7bmQ"")",-1,-1,-1,-1,-1,0,1,4.168,fake_entropy
+hard_negative,"fetch_by_hash(""dummy"")",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"build: checksum: ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""md5"")",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""28a4e5d76c6326b16633923131c7e21c"" } }",-1,-1,-1,-1,-1,0,1,3.501,hash_or_id
+hard_negative,"log_request(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"fetch_by_hash(""459316309ec7ee7f127c0db0b02265dc"")",-1,-1,-1,-1,-1,0,1,3.718,fake_entropy
+hard_negative,"trace_id = ""87ef894be4d42086778d26acbe1cb77f""",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"log_request(""cache_key"")",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"cache_key = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""c71678e89ce5c3e06cf9c786"" } }",-1,-1,-1,-1,-1,0,1,3.225,fake_entropy
+hard_negative,"get_user_by_id(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""89cce03335711c30b5be6e440096258b"" } }",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fingerprint"" } }",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"fetch_by_hash(""1CdunaX8bpd03ORupxzR/TtNaFEpGs1xStOcoJlT"")",-1,-1,-1,-1,-1,0,1,4.753,fake_entropy
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""2fdda27916067c8337e3a630023bb6db""",-1,-1,-1,-1,-1,0,1,3.582,hash_or_id
+hard_negative,"cache_key = ""version_hash""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"trace_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"request_id = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"trace_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"build: checksum: ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""mock"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""example""",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"build: checksum: ""job_id""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""F8bKQbEm2V4xaCtKfndjxL1387GOZcBY""",-1,-1,-1,-1,-1,0,1,4.75,fake_entropy
+hard_negative,"cache_key = ""admin""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REPLACE_ME"" } }",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"cache_key = ""cJ8GI49k50AuZh6Y4WRjwExskGb6o7AX""",-1,-1,-1,-1,-1,0,1,4.688,fake_entropy
+hard_negative,"cache_key = ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"build: checksum: ""436efe0be9bb3f4f72a1a2f61bf1420e""",-1,-1,-1,-1,-1,0,1,3.441,fake_entropy
+hard_negative,"cache_key = ""014df517-39d1-4453-b7b3-9930c563627c""",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"log_request(""session_id"")",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"get_user_by_id(""active"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"fetch_by_hash(""asset_name"")",-1,-1,-1,-1,-1,0,1,2.722,stopword
+hard_negative,"build: checksum: ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"get_user_by_id(""87f20e86fd432d757856d1bb6d10f749"")",-1,-1,-1,-1,-1,0,1,3.679,fake_entropy
+hard_negative,"build: checksum: ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""d2d5e526b0cf5788e23c2a976c4f0c3dce886"" } }",-1,-1,-1,-1,-1,0,1,3.733,fake_entropy
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""27b8196c57e113232e93da02d70b106c"" } }",-1,-1,-1,-1,-1,0,1,3.679,hash_or_id
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""correlation_id""",-1,-1,-1,-1,-1,0,1,3.379,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""adapter"" } }",-1,-1,-1,-1,-1,0,1,2.522,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""cache_key"" } }",-1,-1,-1,-1,-1,0,1,2.725,stopword
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""css_class"")",-1,-1,-1,-1,-1,0,1,2.059,stopword
+hard_negative,"cache_key = ""XBdmRmGtvADrue26AKNFaSQLP44PupTG""",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""728412c5a049b30d6ce5f2f935907f41"")",-1,-1,-1,-1,-1,0,1,3.858,hash_or_id
+hard_negative,"request_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"cache_key = ""fbd826802091424372edb64013bb1b3c""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""9430e34bf0f4e68dbe3bfac27e0f5e2a1bed8c37"" } }",-1,-1,-1,-1,-1,0,1,3.796,fake_entropy
+hard_negative,"fetch_by_hash(""343ba28772df993f0e819f46aedbb06f"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"fetch_by_hash(""T4HU2nuyun+MlA2aelS6Abi0"")",-1,-1,-1,-1,-1,0,1,4.168,fake_entropy
+hard_negative,"log_request(""a8399bebc489aa73808d693a003f787d"")",-1,-1,-1,-1,-1,0,1,3.465,hash_or_id
+hard_negative,"build: checksum: ""b6a1574cb8a154d89df72dd1980dbed8""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"request_id = ""38d1076b29efaa95c19031c84d683993""",-1,-1,-1,-1,-1,0,1,3.778,hash_or_id
+hard_negative,"fetch_by_hash(""build_id"")",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""92373d8cf08b9998825ab34de2cd9a17"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"fetch_by_hash(""1bfd70f1fd7a842f9cac80c7"")",-1,-1,-1,-1,-1,0,1,3.439,fake_entropy
+hard_negative,"fetch_by_hash(""c24dec16e577ead40e251fa2e5ecf4f8"")",-1,-1,-1,-1,-1,0,1,3.522,hash_or_id
+hard_negative,"cache_key = ""4ac02d469fa9636c45cf30e77bb263f5""",-1,-1,-1,-1,-1,0,1,3.718,hash_or_id
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""f2bf8332e64a3b7696635b2852e7ddf7""",-1,-1,-1,-1,-1,0,1,3.554,fake_entropy
+hard_negative,"log_request(""md5"")",-1,-1,-1,-1,-1,0,1,1.585,stopword
+hard_negative,"fetch_by_hash(""13f981ae4ce5a1dfc9cf79eb42bed671"")",-1,-1,-1,-1,-1,0,1,3.742,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""color_hex"" } }",-1,-1,-1,-1,-1,0,1,2.948,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""4493931582f55dde49628515"" } }",-1,-1,-1,-1,-1,0,1,3.288,fake_entropy
+hard_negative,"request_id = ""activity""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""90a523ea43ad4663df4a3f274ff83a3a"" } }",-1,-1,-1,-1,-1,0,1,3.343,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""correlation_id"" } }",-1,-1,-1,-1,-1,0,1,3.379,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""slug"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"cache_key = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"log_request(""placeholder"")",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"trace_id = ""test""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""example""",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"request_id = ""fce0227a80e0b0b3144bd62840933b8e""",-1,-1,-1,-1,-1,0,1,3.644,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""q7Qlt0yozsX6WMrSHJO8KXAKCwynIqPp"")",-1,-1,-1,-1,-1,0,1,4.75,fake_entropy
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""nksmOqQE3TUOB+6LLEtTh+vx8+4WNYnTCVn"")",-1,-1,-1,-1,-1,0,1,4.55,fake_entropy
+hard_negative,"build: checksum: ""4ba8db20814730704c88e67aa5b2b674""",-1,-1,-1,-1,-1,0,1,3.578,hash_or_id
+hard_negative,"request_id = ""7QDYF51toiElvIQu4+HLRM+AS9nIPsQ8zfJfeQN+""",-1,-1,-1,-1,-1,0,1,4.903,fake_entropy
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""08d398ec7a9bcb11f028ddfb1e813fdb"")",-1,-1,-1,-1,-1,0,1,3.539,hash_or_id
+hard_negative,"log_request(""c567ac9af537d8f0c51b118545b1491c990911a71c84179b9e4cb559b9e87e"")",-1,-1,-1,-1,-1,0,1,3.616,fake_entropy
+hard_negative,"fetch_by_hash(""014df517-39d1-4453-b7b3-9930c563627c"")",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""commit_sha"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"trace_id = ""982c34f1cfe604f89cce49327f157ed3""",-1,-1,-1,-1,-1,0,1,3.656,hash_or_id
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""active""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"fetch_by_hash(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"fetch_by_hash(""eac5e623d6143f02aecaf74fc44a81ab"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"request_id = ""00037a2b4930afa98fbc9cee18ee5075""",-1,-1,-1,-1,-1,0,1,3.653,hash_or_id
+hard_negative,"cache_key = ""3b133d82680999292c375ebfc57450""",-1,-1,-1,-1,-1,0,1,3.723,fake_entropy
+hard_negative,"cache_key = ""nonce""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""bf49b9a1b660736a013649a790a820ed"" } }",-1,-1,-1,-1,-1,0,1,3.601,fake_entropy
+hard_negative,"cache_key = ""014df517-39d1-4453-b7b3-9930c563627c""",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"trace_id = ""color_hex""",-1,-1,-1,-1,-1,0,1,2.948,stopword
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""9f38195e0596330ac51be5c88bb1ab64""",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"build: checksum: ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"build: checksum: ""6c84bfee2217590c08410d4d9588ff46""",-1,-1,-1,-1,-1,0,1,3.703,fake_entropy
+hard_negative,"fetch_by_hash(""uuid"")",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"log_request(""2b7c7b5cb742e7e62df059307bb5ba18"")",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"get_user_by_id(""nPNm820OYTTEbm6RfOHwwVUgU54B98MR"")",-1,-1,-1,-1,-1,0,1,4.562,fake_entropy
+hard_negative,"cache_key = ""42a17a39a18677307e968aeada5f4618""",-1,-1,-1,-1,-1,0,1,3.57,hash_or_id
+hard_negative,"build: checksum: ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""admin123"" } }",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"trace_id = ""0a3ebd4f2f2dd72327585550cbc73290""",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"get_user_by_id(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"cache_key = ""admin""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"cache_key = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""+BeayqBU3bq9fzE7RR4UYZNUcpFpAwVG"")",-1,-1,-1,-1,-1,0,1,4.601,fake_entropy
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"fetch_by_hash(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"get_user_by_id(""320273239d94a7ff54dcf841007942ed"")",-1,-1,-1,-1,-1,0,1,3.608,hash_or_id
+hard_negative,"trace_id = ""id""",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"cache_key = ""TODO""",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"request_id = ""92818b8515c613bac71b6b2e807e4a23""",-1,-1,-1,-1,-1,0,1,3.664,hash_or_id
+hard_negative,"trace_id = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""uT9QG2bOvLpkjS1gKbHNOzJu"" } }",-1,-1,-1,-1,-1,0,1,4.335,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""7d3505b5cda1e3e205f88c6f8e0191cf"" } }",-1,-1,-1,-1,-1,0,1,3.733,hash_or_id
+hard_negative,"log_request(""commit_sha"")",-1,-1,-1,-1,-1,0,1,3.122,stopword
+hard_negative,"get_user_by_id(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""about"")",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""910dce01530569dc402bcdf1ac5895b7c85cb76d"" } }",-1,-1,-1,-1,-1,0,1,3.737,fake_entropy
+hard_negative,"build: checksum: ""e927f978a7244f7a420a58911e6b82ca4e""",-1,-1,-1,-1,-1,0,1,3.609,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""etag"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"request_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""697be5f23202bf7c7b7ee2e02c8aebae""",-1,-1,-1,-1,-1,0,1,3.403,hash_or_id
+hard_negative,"trace_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"log_request(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""guid"" } }",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"request_id = ""2fbe651a8c6658ceaeea648d9a8afc18""",-1,-1,-1,-1,-1,0,1,3.438,hash_or_id
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""DsrUlLlaAJVKQgejMtU/hAhpXf+Hu"" } }",-1,-1,-1,-1,-1,0,1,4.582,fake_entropy
+hard_negative,"get_user_by_id(""OAyDzlwAZLXDlM0hCQ36xqDY"")",-1,-1,-1,-1,-1,0,1,4.22,fake_entropy
+hard_negative,"fetch_by_hash(""d24d227137cb6c29e6f0cb47efddef70"")",-1,-1,-1,-1,-1,0,1,3.554,hash_or_id
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"trace_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"request_id = ""a978ddd6995063e2cef46a99f96bd499""",-1,-1,-1,-1,-1,0,1,3.5,hash_or_id
+hard_negative,"trace_id = ""GDgpo8zZSrTE2npHM/8YOLzfNo/wI4ve21xB7Edm""",-1,-1,-1,-1,-1,0,1,4.972,fake_entropy
+hard_negative,"trace_id = ""akQdgQIDeugPBRv6QIOEituO10wwFjxb""",-1,-1,-1,-1,-1,0,1,4.539,fake_entropy
+hard_negative,"log_request(""lN4kNRRmECZD/srcdijSq877atDmksvz"")",-1,-1,-1,-1,-1,0,1,4.562,fake_entropy
+hard_negative,"log_request(""e6b879c622c0302a94b8eaebbb38f891"")",-1,-1,-1,-1,-1,0,1,3.629,hash_or_id
+hard_negative,"log_request(""example"")",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"trace_id = ""f224f543c899c5596b19c4777d055768""",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"cache_key = ""fingerprint""",-1,-1,-1,-1,-1,0,1,2.914,stopword
+hard_negative,"build: checksum: ""session_id""",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"request_id = ""ae1fd7284b8e86eea5d562819f4ab5d2""",-1,-1,-1,-1,-1,0,1,3.593,fake_entropy
+hard_negative,"log_request(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"build: checksum: ""n9TZh0YPJbxY2wIUgfzZYOiH07K+ugQg""",-1,-1,-1,-1,-1,0,1,4.578,fake_entropy
+hard_negative,"log_request(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"request_id = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""lYeqjqYHnnU7Admtbz5PAxOp2FHLKMfXIG3Vd+43""",-1,-1,-1,-1,-1,0,1,4.972,fake_entropy
+hard_negative,"trace_id = ""30443d9c24c4226c27398afd3e01876e""",-1,-1,-1,-1,-1,0,1,3.664,fake_entropy
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"cache_key = ""REPLACE_ME""",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"trace_id = ""4XfqnO2txZLzgM1O2TS6MHGO7PnywhFU""",-1,-1,-1,-1,-1,0,1,4.664,fake_entropy
+hard_negative,"cache_key = ""fRUy9bjj298so4yBTTovGEkAQjDKUE91""",-1,-1,-1,-1,-1,0,1,4.39,fake_entropy
+hard_negative,"build: checksum: ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"log_request(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""admin""",-1,-1,-1,-1,-1,0,1,2.322,stopword
+hard_negative,"get_user_by_id(""mock"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"get_user_by_id(""014df517-39d1-4453-b7b3-9930c563627c"")",-1,-1,-1,-1,-1,0,1,3.687,stopword
+hard_negative,"log_request(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"get_user_by_id(""1b78ed73fa959356012023801c773fd5"")",-1,-1,-1,-1,-1,0,1,3.742,fake_entropy
+hard_negative,"trace_id = ""3564d22f1fd1fecdc3e57309""",-1,-1,-1,-1,-1,0,1,3.574,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""REDACTED"" } }",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"request_id = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"log_request(""addon"")",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"get_user_by_id(""REPLACE_ME"")",-1,-1,-1,-1,-1,0,1,2.846,placeholder
+hard_negative,"get_user_by_id(""version_hash"")",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""password123"" } }",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"log_request(""root"")",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""289d419cd0cf50ba37efab5abc0b91d6"")",-1,-1,-1,-1,-1,0,1,3.82,hash_or_id
+hard_negative,"get_user_by_id(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"fetch_by_hash(""11a2e44d5524f0371b8f5fefa691f92b"")",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"request_id = ""sample""",-1,-1,-1,-1,-1,0,1,2.585,placeholder
+hard_negative,"cache_key = ""mock""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""34411d5ea861240b241a0193addbb4d8e2dc9a57""",-1,-1,-1,-1,-1,0,1,3.713,fake_entropy
+hard_negative,"get_user_by_id(""test123"")",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""083c798fe00ad2eea4e6fa5a33a5f11d""",-1,-1,-1,-1,-1,0,1,3.691,hash_or_id
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""root""",-1,-1,-1,-1,-1,0,1,1.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""root"" } }",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"log_request(""your_key_here"")",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"request_id = ""checksum""",-1,-1,-1,-1,-1,0,1,2.75,stopword
+hard_negative,"cache_key = ""id""",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"cache_key = ""f218befcf93609d4ef66e6245eb1f098""",-1,-1,-1,-1,-1,0,1,3.614,hash_or_id
+hard_negative,"build: checksum: ""J9UOLh8K0vX7RuJrTrc9ZGJfqf2Q4vcD""",-1,-1,-1,-1,-1,0,1,4.539,fake_entropy
+hard_negative,"get_user_by_id(""a0f2158084064a46d2ad54446566d748"")",-1,-1,-1,-1,-1,0,1,3.218,hash_or_id
+hard_negative,"request_id = ""fake""",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""3dff70444a546cbd773090003ed20be5""",-1,-1,-1,-1,-1,0,1,3.57,hash_or_id
+hard_negative,"{ ""request_metadata"": { ""trace"": ""TODO"" } }",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""dummy"" } }",-1,-1,-1,-1,-1,0,1,1.922,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""job_id"" } }",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"fetch_by_hash(""80837d140982076ce67d0f80afdd5ecb5f48f157"")",-1,-1,-1,-1,-1,0,1,3.773,fake_entropy
+hard_negative,"cache_key = ""placeholder""",-1,-1,-1,-1,-1,0,1,3.096,placeholder
+hard_negative,"build: checksum: ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"trace_id = ""c212136104b01ba7ac3b59d0dad0c18f""",-1,-1,-1,-1,-1,0,1,3.668,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"build: checksum: ""example""",-1,-1,-1,-1,-1,0,1,2.522,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""fake"" } }",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"build: checksum: ""activity""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"request_id = ""0a5d30bfff6e11c94f97f2c631820e3e""",-1,-1,-1,-1,-1,0,1,3.793,hash_or_id
+hard_negative,"fetch_by_hash(""fake"")",-1,-1,-1,-1,-1,0,1,2.0,placeholder
+hard_negative,"request_id = ""f9f87442d03f9214fb76b6334a0e99f0""",-1,-1,-1,-1,-1,0,1,3.59,hash_or_id
+hard_negative,"trace_id = ""54a5e0ffad1a97d5f322c4f7f299822d""",-1,-1,-1,-1,-1,0,1,3.555,hash_or_id
+hard_negative,"log_request(""578b5b1a5e3cea7470a4875378572e35c228f8cb0d321ec"")",-1,-1,-1,-1,-1,0,1,3.637,fake_entropy
+hard_negative,"build: checksum: ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"log_request(""trace_id"")",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"trace_id = ""sha256""",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"request_id = ""password123""",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"trace_id = ""root""",-1,-1,-1,-1,-1,0,1,1.5,default_credential
+hard_negative,"fetch_by_hash(""password123"")",-1,-1,-1,-1,-1,0,1,3.278,default_credential
+hard_negative,"{ ""request_metadata"": { ""trace"": ""a1517017b366d9e3cf30bf795563d91d"" } }",-1,-1,-1,-1,-1,0,1,3.57,fake_entropy
+hard_negative,"get_user_by_id(""ab9522570bbb62fe604d41cea40e1234"")",-1,-1,-1,-1,-1,0,1,3.703,hash_or_id
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""MWwVJXHIST4ZRWis56WO7zcWVXavq23A""",-1,-1,-1,-1,-1,0,1,4.625,fake_entropy
+hard_negative,"build: checksum: ""REDACTED""",-1,-1,-1,-1,-1,0,1,2.5,placeholder
+hard_negative,"trace_id = ""32411c21125d7cce7bafbe0e54d1deee""",-1,-1,-1,-1,-1,0,1,3.457,hash_or_id
+hard_negative,"request_id = ""aPKgCWCOpthUOldnvU2dBG6W9oTVXeTTC8zmGjJq""",-1,-1,-1,-1,-1,0,1,4.834,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""924575e4ea11688c6051737961c0d1d92875fd0bbc989e278128d9471a825e7"" } }",-1,-1,-1,-1,-1,0,1,3.807,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""your_key_here"" } }",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"trace_id = ""UufTBu4toQ/3q/nEXz+8/L+edA1L/V4x""",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"trace_id = ""deployment_id""",-1,-1,-1,-1,-1,0,1,3.393,stopword
+hard_negative,"log_request(""536317e3c32cd49a41015310b48ef153"")",-1,-1,-1,-1,-1,0,1,3.668,fake_entropy
+hard_negative,"{ ""request_metadata"": { ""trace"": ""1iM3mpmvdriwxeRweXTfh3uB"" } }",-1,-1,-1,-1,-1,0,1,4.168,fake_entropy
+hard_negative,"trace_id = ""3f2fc9c2a9c6a6a11f140d4c5d482828""",-1,-1,-1,-1,-1,0,1,3.57,hash_or_id
+hard_negative,"cache_key = ""62mtXEZAouqkbhLoxfY0JAqe4ZtJE4HV""",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"log_request(""admin123"")",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"get_user_by_id(""id"")",-1,-1,-1,-1,-1,0,1,1.0,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""TODO"" } }",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"build: checksum: ""your_key_here""",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"request_id = ""trace_id""",-1,-1,-1,-1,-1,0,1,3.0,stopword
+hard_negative,"log_request(""test"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""your_key_here"" } }",-1,-1,-1,-1,-1,0,1,2.873,placeholder
+hard_negative,"{ ""request_metadata"": { ""trace"": ""test123"" } }",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""514e9473d30d991402b624f19b5a4347""",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"fetch_by_hash(""cb6eae089d06f4aff248d6834459fff3"")",-1,-1,-1,-1,-1,0,1,3.593,hash_or_id
+hard_negative,"fetch_by_hash(""fa1005ad6fb65dc8ca4ad08d1f253adb"")",-1,-1,-1,-1,-1,0,1,3.516,hash_or_id
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"request_id = ""build_number""",-1,-1,-1,-1,-1,0,1,3.252,stopword
+hard_negative,"cache_key = ""guid""",-1,-1,-1,-1,-1,0,1,2.0,stopword
+hard_negative,"cache_key = ""nonce""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"trace_id = ""125103bbad801038a13ce8605ab8b041""",-1,-1,-1,-1,-1,0,1,3.415,hash_or_id
+hard_negative,"build: checksum: ""16ae1df2bd085682371f97887112de4c""",-1,-1,-1,-1,-1,0,1,3.754,hash_or_id
+hard_negative,"cache_key = ""session_id""",-1,-1,-1,-1,-1,0,1,2.646,stopword
+hard_negative,"log_request(""job_id"")",-1,-1,-1,-1,-1,0,1,2.585,stopword
+hard_negative,"trace_id = ""mOL9LMXVEdmPz4uQ+RVfUtA4oju0L7rL""",-1,-1,-1,-1,-1,0,1,4.5,fake_entropy
+hard_negative,"get_user_by_id(""oybJ2yhd74M2Jm+Sify5okIznSGD9On++swKQKOdGTCy+ws+DATKBgQ"")",-1,-1,-1,-1,-1,0,1,4.866,fake_entropy
+hard_negative,"cache_key = ""q7kwLHqw/GJD/0NbLLdNd+""",-1,-1,-1,-1,-1,0,1,3.789,fake_entropy
+hard_negative,"request_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"build: checksum: ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"request_id = ""4b8925cd7033204c7766045b77647a5363f79918""",-1,-1,-1,-1,-1,0,1,3.674,fake_entropy
+hard_negative,"trace_id = ""test123""",-1,-1,-1,-1,-1,0,1,2.522,default_credential
+hard_negative,"fetch_by_hash(""TODO"")",-1,-1,-1,-1,-1,0,1,1.5,placeholder
+hard_negative,"trace_id = ""build_id""",-1,-1,-1,-1,-1,0,1,2.5,stopword
+hard_negative,"{ ""request_metadata"": { ""trace"": ""5414ad764516059a31483d18c813f0a2"" } }",-1,-1,-1,-1,-1,0,1,3.605,hash_or_id
+hard_negative,"request_id = ""480dcc808d3b536a5f91024f751c32a2""",-1,-1,-1,-1,-1,0,1,3.796,hash_or_id
+hard_negative,"cache_key = ""addon""",-1,-1,-1,-1,-1,0,1,1.922,stopword
+hard_negative,"cache_key = ""admin123""",-1,-1,-1,-1,-1,0,1,3.0,default_credential
+hard_negative,"cache_key = ""example""",-1,-1,-1,-1,-1,0,1,2.522,placeholder
